@@ -1,0 +1,221 @@
+<!-- Email Form -->
+<form method="post" action="https://wpmmobiliteit-62cc663179be.herokuapp.com/submit-form" id="email-form">
+    <label for="user-email">Type je email hier in en klik op "Invoeren":</label>
+    <input required="" enterkeyhint="send" autocomplete="email" placeholder="E-mailadres" name="contact[email]" dir="ltr" type="email" class="input" id="input--sections--21194190717258__footer--contactemail">
+    <button data-sanitized-button="" type="submit" id="agree-btn1" class="btn btn-primary">Invoeren</button>
+</form>
+
+<p id="loading-message" style="display: none;">Even geduld, je informatie wordt opgehaald.</p>
+<p id="achternaam-display">&nbsp;</p>
+<form id="achternaam-form">
+    <input name="achternaam" id="achternaam-input" type="hidden">
+    <input name="bedrijf" id="bedrijf-input" type="hidden">
+</form>
+
+
+<!-- Introduction Section -->
+<div id="introduction-section" style="display: none;">
+<p>Hierbij een aantal vragen over jouw gebruik van vervoersmiddelen, zowel privé als voor woon-werkverkeer en zakelijke doeleinden.</p>
+<table>
+    <tbody>
+        <tr>
+            <td><input type="checkbox" id="more-info-checkbox"></td>
+            <td><label for="more-info-checkbox">aanvinken - voor meer info</label></td>
+        </tr>
+    </tbody>
+</table>
+<button id="agree-btn" class="btn btn-primary">Akkoord</button>
+</div>
+
+<!-- Second Info Section -->
+<div id="second-info-section" style="display: none;">
+<h2>Wat gebeurt er met mijn gegevens?</h2>
+<p>In het klimaatakkoord hebben overheden, bedrijven en maatschappelijke organisaties afspraken gemaakt om CO2-emissies te verminderen, waarbij de verduurzaming van mobiliteit centraal staat. Een van deze afspraken is een wettelijke norm voor werkgevers met 100 of meer werknemers, bedoeld om de CO2-uitstoot van werkgerelateerde personenvervoer tegen 2030 met ten minste 1,5 Mton te verminderen.</p>
+<p>De verzamelde gegevens worden gebruikt om te controleren of aan de gestelde voorwaarden wordt voldaan.</p>
+<p>De door jou verstrekte informatie wordt opgeslagen in de databases van Plant N Boom en RVO. Vervolgens worden de gegevens gedeeld met de omgevingsdienst en het Ministerie van IenW, die de gegevens voor onderzoeksdoeleinden willen gebruiken. Voor het gebruik van je gegevens gelden de volgende voorwaarden:</p>
+<ul>
+    <li>De gegevens worden geanonimiseerd; dit betekent dat alle persoonlijke informatie, waaronder contactgegevens, wordt verwijderd.</li>
+    <li>De gegevens worden exclusief toegankelijk gemaakt voor RVO, IenW en enkele kennisinstituten zoals KiM, TNO en PBL.</li>
+    <li>De geanonimiseerde gegevens worden bewaard tot uiterlijk 2023, het einde van de geldigheidsduur van het ontwerpbesluit WPM, waarna ze worden verwijderd.</li>
+</ul>
+<p>Welk onderzoek wordt uitgevoerd met deze gegevens?</p>
+<p>Het doel van het onderzoek met de verstrekte gegevens is:</p>
+<ul>
+    <li>Het monitoren van het aantal deelnemende werkgevers, betrokken branches, enz.</li>
+    <li>Het verbeteren van het formulier, de toelichting en andere communicatiemiddelen.</li>
+    <li>Het vaststellen van de mate waarin het emissieplafond reeds wordt bereikt.</li>
+</ul>
+<p><a href="#">Klik hier voor meer informatie over de WPM</a></p>
+<button id="agree-btn-bottom" class="btn btn-primary" style="display: none;">Akkoord</button>
+</div>
+<!-- Form Section -->
+<form class="form-container" id="login-form" method="post" style="display: none;">
+<fieldset>
+    <legend>Vul hieronder in welk vervoermiddel je doorgaans gebruikt om van huis naar werk te gaan tijdens een normale week. Vermeld ook welke brandstof er wordt gebruikt en hoeveel kilometer dit is (enkele reis).</legend>
+    <div class="form-row header-row">
+        <div class="form-column header-column weekday-header">Weekdag</div>
+        <div class="form-column header-column ik-werk-thuis-column">Ik werk thuis</div>
+        <div class="form-column header-column">Type Vervoermiddel</div>
+        <div class="form-column header-column">Type Brandstof</div>
+        <div class="form-column header-column">Aantal gereden kilometers</div>
+    </div>
+    <div class="form-row">
+        <div class="form-column weekday-column">Zondag</div>
+        <div class="form-column ik-werk-thuis-column"><input data-sanitized-onchange="handleHomeOption(this)" name="home_day_zondag" type="checkbox" class="home-day"></div>
+        <div class="form-column"><select data-sanitized-onchange="updateFuelOptions(this)" name="vehicle_zondag" class="vehicle-select" required="">
+            <option value="">Selecteer een vervoermiddel...</option>
+            <option value="Auto">Auto (ook bestelwagen of truck)</option>
+            <option value="Motor">Motor</option>
+            <option value="Bromfiets">Bromfiets (scooter of speedpedelec)</option>
+            <option value="Fiets">Fiets, e-bike of lopen</option>
+            <option value="OV">Openbaar Vervoer (tram, trein of bus)</option>
+            <option value="Geen">Geen (thuiswerken of niet gewerkt)</option>
+        </select></div>
+        <div class="form-column"><select class="fuel-select" name="fuel_zondag" required=""><!-- Options updated by JavaScript --></select></div>
+        <div class="form-column"><input type="number" name="kilometers_zondag" class="kilometers-input" min="0" max="300" required=""></div>
+    </div>
+        <!-- Repeat the above div.form-row for each day of the week with the appropriate day name -->
+        <!-- Maandag -->
+        <div class="form-row">
+            <div class="form-column weekday-column">Maandag</div>
+            <div class="form-column ik-werk-thuis-column"><input data-sanitized-onchange="handleHomeOption(this)" class="home-day" type="checkbox" name="home_day_maandag"></div>
+            <div class="form-column"><select data-sanitized-onchange="updateFuelOptions(this)" required="" class="vehicle-select" name="vehicle_maandag">
+                <option value="">Selecteer een vervoermiddel...</option>
+                <option value="Auto">Auto (ook bestelwagen of truck)</option>
+                <option value="Motor">Motor</option>
+                <option value="Bromfiets">Bromfiets (scooter of speedpedelec)</option>
+                <option value="Fiets">Fiets, e-bike of lopen</option>
+                <option value="OV">Openbaar Vervoer (tram, trein of bus)</option>
+                <option value="Geen">Geen (thuiswerken of niet gewerkt)</option>
+            </select></div>
+            <div class="form-column"><select required="" name="fuel_maandag" class="fuel-select"><!-- Options updated by JavaScript --></select></div>
+            <div class="form-column"><input required="" max="300" min="0" class="kilometers-input" name="kilometers_maandag" type="number"></div>
+        </div>
+        <!-- Dinsdag -->
+        <div class="form-row">
+            <div class="form-column weekday-column">Dinsdag</div>
+            <div class="form-column ik-werk-thuis-column"><input data-sanitized-onchange="handleHomeOption(this)" class="home-day" type="checkbox" name="home_day_dinsdag"></div>
+            <div class="form-column"><select data-sanitized-onchange="updateFuelOptions(this)" required="" class="vehicle-select" name="vehicle_dinsdag">
+                <option value="">Selecteer een vervoermiddel...</option>
+                <option value="Auto">Auto (ook bestelwagen of truck)</option>
+                <option value="Motor">Motor</option>
+                <option value="Bromfiets">Bromfiets (scooter of speedpedelec)</option>
+                <option value="Fiets">Fiets, e-bike of lopen</option>
+                <option value="OV">Openbaar Vervoer (tram, trein of bus)</option>
+                <option value="Geen">Geen (thuiswerken of niet gewerkt)</option>
+            </select></div>
+            <div class="form-column"><select required="" name="fuel_dinsdag" class="fuel-select"><!-- Options updated by JavaScript --></select></div>
+            <div class="form-column"><input required="" max="300" min="0" class="kilometers-input" name="kilometers_dinsdag" type="number"></div>
+        </div>
+        <!-- Woensdag -->
+        <div class="form-row">
+            <div class="form-column weekday-column">Woensdag</div>
+            <div class="form-column ik-werk-thuis-column"><input data-sanitized-onchange="handleHomeOption(this)" class="home-day" type="checkbox" name="home_day_woensdag"></div>
+            <div class="form-column"><select data-sanitized-onchange="updateFuelOptions(this)" required="" class="vehicle-select" name="vehicle_woensdag">
+                <option value="">Selecteer een vervoermiddel...</option>
+                <option value="Auto">Auto (ook bestelwagen of truck)</option>
+                <option value="Motor">Motor</option>
+                <option value="Bromfiets">Bromfiets (scooter of speedpedelec)</option>
+                <option value="Fiets">Fiets, e-bike of lopen</option>
+                <option value="OV">Openbaar Vervoer (tram, trein of bus)</option>
+                <option value="Geen">Geen (thuiswerken of niet gewerkt)</option>
+            </select></div>
+            <div class="form-column"><select required="" name="fuel_woensdag" class="fuel-select"><!-- Options updated by JavaScript --></select></div>
+            <div class="form-column"><input required="" max="300" min="0" class="kilometers-input" name="kilometers_woensdag" type="number"></div>
+        </div>
+        <!-- Donderdag -->
+        <div class="form-row">
+            <div class="form-column weekday-column">Donderdag</div>
+            <div class="form-column ik-werk-thuis-column"><input data-sanitized-onchange="handleHomeOption(this)" class="home-day" type="checkbox" name="home_day_donderdag"></div>
+            <div class="form-column"><select data-sanitized-onchange="updateFuelOptions(this)" required="" class="vehicle-select" name="vehicle_donderdag">
+                <option value="">Selecteer een vervoermiddel...</option>
+                <option value="Auto">Auto (ook bestelwagen of truck)</option>
+                <option value="Motor">Motor</option>
+                <option value="Bromfiets">Bromfiets (scooter of speedpedelec)</option>
+                <option value="Fiets">Fiets, e-bike of lopen</option>
+                <option value="OV">Openbaar Vervoer (tram, trein of bus)</option>
+                <option value="Geen">Geen (thuiswerken of niet gewerkt)</option>
+            </select></div>
+            <div class="form-column"><select required="" name="fuel_donderdag" class="fuel-select"><!-- Options updated by JavaScript --></select></div>
+            <div class="form-column"><input required="" max="300" min="0" class="kilometers-input" name="kilometers_donderdag" type="number"></div>
+        </div>
+        <!-- Vrijdag -->
+        <div class="form-row">
+            <div class="form-column weekday-column">Vrijdag</div>
+            <div class="form-column ik-werk-thuis-column"><input data-sanitized-onchange="handleHomeOption(this)" class="home-day" type="checkbox" name="home_day_vrijdag"></div>
+            <div class="form-column"><select data-sanitized-onchange="updateFuelOptions(this)" required="" class="vehicle-select" name="vehicle_vrijdag">
+                <option value="">Selecteer een vervoermiddel...</option>
+                <option value="Auto">Auto (ook bestelwagen of truck)</option>
+                <option value="Motor">Motor</option>
+                <option value="Bromfiets">Bromfiets (scooter of speedpedelec)</option>
+                <option value="Fiets">Fiets, e-bike of lopen</option>
+                <option value="OV">Openbaar Vervoer (tram, trein of bus)</option>
+                <option value="Geen">Geen (thuiswerken of niet gewerkt)</option>
+            </select></div>
+            <div class="form-column"><select required="" name="fuel_vrijdag" class="fuel-select"><!-- Options updated by JavaScript --></select></div>
+            <div class="form-column"><input required="" max="300" min="0" class="kilometers-input" name="kilometers_vrijdag" type="number"></div>
+        </div>
+        <!-- Zaterdag -->
+        <div class="form-row">
+            <div class="form-column weekday-column">Zaterdag</div>
+            <div class="form-column ik-werk-thuis-column"><input data-sanitized-onchange="handleHomeOption(this)" class="home-day" type="checkbox" name="home_day_zaterdag"></div>
+            <div class="form-column"><select data-sanitized-onchange="updateFuelOptions(this)" required="" class="vehicle-select" name="vehicle_zaterdag">
+                <option value="">Selecteer een vervoermiddel...</option>
+                <option value="Auto">Auto (ook bestelwagen of truck)</option>
+                <option value="Motor">Motor</option>
+                <option value="Bromfiets">Bromfiets (scooter of speedpedelec)</option>
+                <option value="Fiets">Fiets, e-bike of lopen</option>
+                <option value="OV">Openbaar Vervoer (tram, trein of bus)</option>
+                <option value="Geen">Geen (thuiswerken of niet gewerkt)</option>
+            </select></div>
+            <div class="form-column"><select required="" name="fuel_zaterdag" class="fuel-select"><!-- Options updated by JavaScript --></select></div>
+            <div class="form-column"><input required="" max="300" min="0" class="kilometers-input" name="kilometers_zaterdag" type="number"></div>
+        </div>
+    </fieldset>
+    <button class="btn btn-primary" type="button" id="submit-transport-info">Invoeren</button>
+</form>
+
+<!-- Hidden Section for New Question -->
+<div id="new-question-section" style="display: none; margin-top: 20px;">
+    <p>Heb je gebruik gemaakt van een leaseauto voor het werk of anderzins vervoermiddelen van het werk gebruikt voor woon-werkverkeer?</p>
+    <input type="radio" id="lease-yes" name="lease" value="yes">
+    <label for="lease-yes">Ja</label><br>
+    <input type="radio" id="lease-no" name="lease" value="no">
+    <label for="lease-no">Nee</label><br>
+    <button class="btn btn-primary" id="submit-new-question" type="button">Submit</button>
+</div>
+
+<!-- Hidden Section for Lease Vehicle Details -->
+<div id="lease-details-section" style="display: none; margin-top: 20px;">
+    <p>Welk leasevervoermiddel gebruik je het meest en hoeveel kilometer leg je hiermee jaarlijks af?</p>
+    <div class="form-row header-row">
+        <div class="form-column header-column">Vervoermiddel</div>
+        <div class="form-column header-column">Brandstof</div>
+        <div class="form-column header-column">Aantal jaar kilometers</div>
+    </div>
+    <div class="lease-form-row">
+        <div class="lease-form-column lease-kolom">
+            <select name="lease_vehicle" class="vehicle-select" required>
+                <option value="">Selecteer een vervoermiddel...</option>
+                <option value="Auto">Auto (ook bestelwagen of truck)</option>
+                <option value="Motor">Motor</option>
+                <option value="Bromfiets">Bromfiets (scooter of speedpedelec)</option>
+                <option value="Fiets">Fiets, e-bike</option>
+            </select>
+        </div>
+        <div class="lease-form-column lease-kolom">
+            <select name="lease_fuel" class="fuel-select" required>
+                <!-- Options will be populated by JavaScript -->
+            </select>
+        </div>
+        <div class="lease-form-column lease-kolom">
+            <input type="number" name="lease_kilometers" min="0" max="500000" required>
+        </div>
+    </div>
+    <button class="btn btn-primary" id="submit-lease-details" type="button">Invoeren</button>
+</div>
+
+<!-- Thank You Message -->
+<div id="thank-you-message" style="display: none; margin-top: 20px;">
+    <p>Bedankt voor het invoeren van je woon-werk mobiliteit. Je ontvangt een email met de gegevens die je hebt ingevoerd.</p>
+</div>
