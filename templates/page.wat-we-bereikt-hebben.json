@@ -1,0 +1,240 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        ".package {margin: 0px; \/* Space between columns *\/}",
+        "@media (max-width: 768px) {.pricing-container {flex-direction: column; \/* Stapelt de kolommen verticaal op kleinere schermen *\/ align-items: center; \/* Centreert kolommen horizontaal *\/ } .package {width: 100%; \/* Kolommen nemen de volledige breedte van de container in *\/ margin-bottom: 20px; \/* Voegt ruimte toe tussen gestapelde kolommen *\/ }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "show_title": true,
+        "page_width": "sm"
+      }
+    },
+    "multi_column_ki3kVw": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_JB7iAL": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/howitworks-6_480x480_398166b2-44a9-49b7-a9fb-4f895905be8b.png",
+            "title": "30,000 BOMEN GEKWEEKT",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_TTjBKw": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/howitworks-5_480x480_4e92ff6f-a1ec-473f-aa14-fe3e87989800.png",
+            "title": "15,000 TON CO2 GEABSORBEERD",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_T4gr3X": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/howitworks-2_480x480_8df1618d-714b-4d85-93a3-0a1420087c9f.png",
+            "title": "50 HECTARE BOSSEN BESCHERMD",
+            "heading_tag": "h3",
+            "content": "",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_JB7iAL",
+        "image_with_text_TTjBKw",
+        "image_with_text_T4gr3X"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "",
+        "content": ""
+      }
+    },
+    "media_grid_PVw8KX": {
+      "type": "media-grid",
+      "blocks": {
+        "video_hN6XBk": {
+          "type": "video",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "video": "shopify:\/\/files\/videos\/portrait ops manager.mp4",
+            "autoplay": true,
+            "show_controls": false,
+            "column_count": "3",
+            "row_count": 2,
+            "title": "<em>Operatie Manager<\/em>",
+            "heading_tag": "h4",
+            "content": "<p>schetst hoe bijdragen lokale gemeenschappen en het milieu helpen.<\/p>",
+            "link_text": "Zie volledige video",
+            "link_url": "https:\/\/youtu.be\/cpY2CnaexC0",
+            "link_style": "link",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 51
+          }
+        },
+        "video_LctCVP": {
+          "type": "video",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "video": "shopify:\/\/files\/videos\/school.mp4",
+            "autoplay": true,
+            "show_controls": false,
+            "column_count": "3",
+            "row_count": 2,
+            "title": "<em>Kinderen naar school<\/em>:",
+            "heading_tag": "h4",
+            "content": "<p>Een kijk op hoe we onderwijsmogelijkheden voor kinderen in Sierra Leone verbeteren.<\/p>",
+            "link_text": "Zie volledige video",
+            "link_url": "https:\/\/youtu.be\/Q32PA_jkq7c",
+            "link_style": "link",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_cwxgcq": {
+          "type": "video",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "video": "shopify:\/\/files\/videos\/De Reunie.mp4",
+            "autoplay": true,
+            "show_controls": false,
+            "column_count": "3",
+            "row_count": 2,
+            "title": "<em>De Reunie Bezoekt<\/em>",
+            "heading_tag": "h4",
+            "content": "<p>Presentator Rob Kamphues  deelt zijn indrukken over de impact van onze samenwerking.<\/p>",
+            "link_text": "Zie volledige video",
+            "link_url": "https:\/\/youtu.be\/BD-4uvZfs9A",
+            "link_style": "link",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        },
+        "video_xB8ij4": {
+          "type": "video",
+          "settings": {
+            "color_scheme": "scheme-4",
+            "video": "shopify:\/\/files\/videos\/Adriaan spreekt.mp4",
+            "autoplay": true,
+            "show_controls": false,
+            "column_count": "3",
+            "row_count": 2,
+            "title": "Werkbezoek",
+            "heading_tag": "h4",
+            "content": "<p>Vrijwilliger vertelt over impact in Sierra Leone<\/p>",
+            "link_text": "Zie volledige video",
+            "link_url": "https:\/\/youtu.be\/TRqwsye16rw",
+            "link_style": "link",
+            "text_position": "place-self-end-center text-center",
+            "overlay_color": "#000000",
+            "overlay_opacity": 0
+          }
+        }
+      },
+      "block_order": [
+        "video_hN6XBk",
+        "video_LctCVP",
+        "video_cwxgcq",
+        "video_xB8ij4"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "desktop_row_height": 290,
+        "mobile_row_height": 180,
+        "section_width": "lg",
+        "spacing": "md",
+        "subheading": "",
+        "title": "Ontdek de Impact van Partnerschap met Plant N Boom",
+        "content": "<p>Ervaar uit eerste hand de verhalen van onze partners die hebben gekozen voor een duurzamere toekomst met Plant N Boom. Hun ervaringen belichten de tastbare voordelen van onze samenwerkingen en demonstreren hoe we gezamenlijke doelstellingen voor duurzaamheid hebben gerealiseerd<\/p>"
+      }
+    },
+    "text_with_icons_Phyw7m": {
+      "type": "text-with-icons",
+      "blocks": {
+        "item_U4JJmH": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-earth",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "Gratis",
+            "content": "<p>€ 0<\/p><p>Gratis uittesten alle toolkits en demonstratie<\/p><p>✅ CO2-Quickscan<\/p><p>✅ CO2-Inventarisatie<\/p><p>✅ Reductieadvies<\/p><p>❌ Bomen Planten<\/p><p>❌ Persoonlijk Certificaat<\/p><p>❌ Online Dashboard<\/p><p>❌ Communicatiemateriaal<\/p><p>❌ Periodieke Updates<\/p><p>❌ Advies voor Duurzame Praktijken<\/p><p>❌ Supportlijn<\/p><p>❌ Jaarlijkse Voortgangsrapportages<\/p><p>❌ Duurzaamheidsworkshops:<\/p><p>❌ ESG-Consultancy<\/p><p>❌ Gepersonaliseerd Partnerschapscertificaat<\/p><p>❌ Netwerkevenementen voor Duurzaamheid<\/p><p>❌ ESG-Consultancy<\/p><p>❌ CSRD Compliance Advies<\/p><p>❌ Duurzaamheidsaudits<\/p><p>❌ Ondersteuning bij de Implementatie van Duurzaamheidsinitiatieven<\/p><p>❌ Stakeholder Engagement Programma’s<\/p>"
+          }
+        },
+        "item_xYqzeg": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-leaf",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "BASIS",
+            "content": "<p>€ 1.000<\/p><p>Vrijwillige CO2-compensatie voor bedrijven tot 100 werknemers<\/p><p>✅ CO2-Quickscan<\/p><p>✅ CO2-Inventarisatie<\/p><p>✅ Reductieadvies<\/p><p>✅<strong> <\/strong>100 Bomen geplant<\/p><p>✅<strong> <\/strong>0,5 ha bos hersteld<\/p><p>✅<strong> <\/strong>1 boer gesteund<\/p><p>✅ Persoonlijk Certificaat<\/p><p>✅ Online Dashboard<\/p><p>✅ Communicatiemateriaal<\/p><p>✅ Periodieke Updates<\/p><p>✅ Advies voor Duurzame Praktijken<\/p><p>✅ Supportlijn<\/p><p>❌ Jaarlijkse Voortgangsrapportages<\/p><p>❌ Duurzaamheidsworkshops:<\/p><p>❌ ESG-Consultancy<\/p><p>❌ Gepersonaliseerd Partnerschapscertificaat<\/p><p>❌ Netwerkevenementen voor Duurzaamheid<\/p><p>❌ ESG-Consultancy<\/p><p>❌ CSRD Compliance Advies<\/p><p>❌ Duurzaamheidsaudits<\/p><p>❌ Ondersteuning bij de Implementatie van Duurzaamheidsinitiatieven<\/p><p>❌ Stakeholder Engagement Programma’s<\/p>"
+          }
+        },
+        "item_Px7Td6": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-recycle",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "STANDAARD",
+            "content": "<p>€ 10.000<\/p><p>Uitgebreide dienstverlening voor bedrijven met 100-1000 werknemers<\/p><p>✅ CO2-Quickscan<\/p><p>✅ CO2-Inventarisatie<\/p><p>✅ Reductieadvies<\/p><p>✅<strong> <\/strong>1000 Bomen geplant<\/p><p>✅<strong> <\/strong>5 ha bos hersteld<\/p><p>✅<strong> <\/strong>5 boeren gesteund<\/p><p>✅ Persoonlijk Certificaat<\/p><p>✅ Online Dashboard<\/p><p>✅ Communicatiemateriaal<\/p><p>✅ Periodieke Updates<\/p><p>✅ Advies voor Duurzame Praktijken<\/p><p>✅ Supportlijn<\/p><p>✅ Jaarlijkse Voortgangsrapportages<\/p><p>✅ Duurzaamheidsworkshops:<\/p><p>✅ Gepersonaliseerd Partnerschapscertificaat<\/p><p>✅ Netwerkevenementen voor Duurzaamheid<\/p><p>❌ ESG-Consultancy<\/p><p>❌ CSRD Compliance Advies<\/p><p>❌ Duurzaamheidsaudits<\/p><p>❌ Ondersteuning bij de Implementatie van Duurzaamheidsinitiatieven<\/p><p>❌ Stakeholder Engagement Programma’s<\/p>"
+          }
+        },
+        "item_8V8i3x": {
+          "type": "item",
+          "settings": {
+            "icon": "picto-tree",
+            "icon_width": 24,
+            "mobile_icon_width": 24,
+            "title": "PREMIUM",
+            "content": "<p>€ 50.000<\/p><p>ESG \/ CSRD rapportage voor bedrijven boven 1000 werknemers<\/p><p>✅ CO2-Quickscan<\/p><p>✅ CO2-Inventarisatie<\/p><p>✅ Reductieadvies<\/p><p>✅<strong> <\/strong>5000 Bomen geplant<\/p><p>✅<strong> <\/strong>25 ha bos hersteld<\/p><p>✅<strong> <\/strong>25 boeren gesteund<\/p><p>✅ Persoonlijk Certificaat<\/p><p>✅ Online Dashboard<\/p><p>✅ Communicatiemateriaal<\/p><p>✅ Periodieke Updates<\/p><p>✅ Advies voor Duurzame Praktijken<\/p><p>✅ Supportlijn<\/p><p>✅ Jaarlijkse Voortgangsrapportages<\/p><p>✅ Duurzaamheidsworkshops:<\/p><p>✅ Gepersonaliseerd Partnerschapscertificaat<\/p><p>✅ Netwerkevenementen voor Duurzaamheid<\/p><p>✅ ESG-Consultancy<\/p><p>✅ CSRD Compliance Advies<\/p><p>✅ Duurzaamheidsaudits<\/p><p>✅ Ondersteuning bij de Implementatie van Duurzaamheidsinitiatieven<\/p><p>✅ Stakeholder Engagement Programma’s<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "item_U4JJmH",
+        "item_xYqzeg",
+        "item_Px7Td6",
+        "item_8V8i3x"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "stack_on_mobile": false,
+        "icon_color": "",
+        "text_color": "",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multi_column_ki3kVw",
+    "media_grid_PVw8KX",
+    "text_with_icons_Phyw7m"
+  ]
+}

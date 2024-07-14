@@ -1,0 +1,6 @@
+development:
+  password: shptka_46a792b9925a5394bcd2da0828be4b59
+  theme_id: 160359612746
+  store: planteenboom-nu.myshopify.com
+  ignore_files:
+    - config/settings_data.json

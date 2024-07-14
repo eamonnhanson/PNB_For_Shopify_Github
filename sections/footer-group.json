@@ -1,0 +1,75 @@
+{
+  "type": "footer",
+  "name": "Footer group",
+  "sections": {
+    "custom_liquid_HgUJhU": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<!-- Anchor Target Section -->\n<div id=\"nieuwsbrief\">\n  \n<\/div>",
+        "text_alignment": "center"
+      }
+    },
+    "footer": {
+      "type": "footer",
+      "blocks": {
+        "links": {
+          "type": "links",
+          "settings": {
+            "menu": "footer",
+            "show_menu_title": true,
+            "menu_title": ""
+          }
+        },
+        "text_KzqhL7": {
+          "type": "text",
+          "settings": {
+            "title": "About our store",
+            "content": "<p>Bezoekadres <a href=\"https:\/\/goo.gl\/maps\/qzC75TAKytHz8WXf9\" title=\"https:\/\/goo.gl\/maps\/qzC75TAKytHz8WXf9\">(Google Maps)<\/a> <\/p><p>Industrieweg 68-1, 3606 AS Maarssen<\/p><p>Email: info@planteenboom.nu<\/p><p>Tel: +31 (0)20 7744930<\/p><p>Kamer van Koophandel: KvK 84799048<br\/>IBAN: NL13 BUNQ 2066 9900 00<\/p>",
+            "enable_follow_on_shop": false
+          }
+        },
+        "newsletter_YwT8Tb": {
+          "type": "newsletter",
+          "settings": {
+            "title": "Nieuwsbrief",
+            "content": "<p>Blijf op de hoogte. Schrijf je in voor onze nieuwsbrief<\/p>",
+            "button_background": "",
+            "button_text_color": ""
+          }
+        },
+        "image_33bTaB": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/anbi_and_cbf.png",
+            "image_width": 150,
+            "link": "shopify:\/\/pages\/bestuur"
+          }
+        }
+      },
+      "block_order": [
+        "links",
+        "text_KzqhL7",
+        "newsletter_YwT8Tb",
+        "image_33bTaB"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": false,
+        "show_social_media": true,
+        "show_payment_icons": true,
+        "show_country_selector": false,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "show_locale_selector": true
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_HgUJhU",
+    "footer"
+  ]
+}

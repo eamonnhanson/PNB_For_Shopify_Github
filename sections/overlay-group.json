@@ -1,0 +1,48 @@
+{
+  "type": "custom.overlay",
+  "name": "Overlay group",
+  "sections": {
+    "cart-drawer": {
+      "type": "cart-drawer",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "show_cart_note": true,
+        "show_shipping_text": true,
+        "show_view_cart_button": false,
+        "show_checkout_button": true,
+        "show_price_in_checkout_button": true,
+        "cross_sell_products": [],
+        "cross_sell_title": "Complete with",
+        "cross_sell_stack_products": false
+      }
+    },
+    "newsletter-popup": {
+      "type": "newsletter-popup",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "apparition_delay": 5,
+        "show_only_on_index": true,
+        "hide_for_account_holders": true,
+        "show_only_once": true,
+        "title": "Signup for our newsletter",
+        "content": "Describe what your customers will receive when subscribing to your newsletter.",
+        "button_text": "Subscribe"
+      }
+    },
+    "privacy-banner": {
+      "type": "privacy-banner",
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "title": "🍪 Cookie policy",
+        "content": "<p>Wij gebruiken cookies en vergelijkbare technologieën om u de best mogelijke ervaring op onze website te bieden. Deze cookies helpen ons de website te verbeteren, stellen ons in staat om inhoud en advertenties te personaliseren en analyseren ons websiteverkeer. <\/p>"
+      }
+    }
+  },
+  "order": [
+    "cart-drawer",
+    "newsletter-popup",
+    "privacy-banner"
+  ]
+}

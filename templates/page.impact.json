@@ -1,0 +1,44 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "custom_css": [
+        ".package {margin: 0px; \/* Space between columns *\/}",
+        "@media (max-width: 768px) {.pricing-container {flex-direction: column; \/* Stapelt de kolommen verticaal op kleinere schermen *\/ align-items: center; \/* Centreert kolommen horizontaal *\/ } .package {width: 100%; \/* Kolommen nemen de volledige breedte van de container in *\/ margin-bottom: 20px; \/* Voegt ruimte toe tussen gestapelde kolommen *\/ }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "show_title": true,
+        "page_width": "sm"
+      }
+    },
+    "custom_liquid_6Rer3r": {
+      "type": "custom-liquid",
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"stats-container\">\n    <div class=\"stat\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/9966\/1149\/files\/howitworks-2_480x480_8df1618d-714b-4d85-93a3-0a1420087c9f.png?v=1714249852\" alt=\"CO2 Compensation\">\n        <div id=\"number-display-1\" class=\"number\">0<\/div>\n        <p>ton CO2 gecompenseerd<\/p>\n    <\/div>\n    <div class=\"stat\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/9966\/1149\/files\/howitworks-5_480x480_4e92ff6f-a1ec-473f-aa14-fe3e87989800.png?v=1714249852\" alt=\"Forest Protection\">\n        <div id=\"number-display-2\" class=\"number\">0<\/div>\n        <p>hectare bos beschermd<\/p>\n    <\/div>\n    <div class=\"stat\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/9966\/1149\/files\/howitworks-6_480x480_398166b2-44a9-49b7-a9fb-4f895905be8b.png?v=1714249852\" alt=\"Total Trees Planted\">\n        <div id=\"number-display-3\" class=\"number\">0<\/div>\n        <p>totaal aantal bomen geplant<\/p>\n    <\/div>\n<\/div>",
+        "text_alignment": "center"
+      }
+    },
+    "custom_liquid_mErmgF": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"stats-container\">\n    <div class=\"stat\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/9966\/1149\/files\/green_farmer_450_450_transp.png?v=1714337934\" alt=\"Boeren gesteund\">\n        <div id=\"number-display-4\" class=\"number\">0<\/div>\n        <p>boeren gesteund<\/p>\n    <\/div>\n    <div class=\"stat\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/9966\/1149\/files\/education_green.png?v=1714337934\" alt=\"kinderen school Protection\">\n        <div id=\"number-display-5\" class=\"number\">0<\/div>\n        <p>kinderen naar school<\/p>\n    <\/div>\n    <div class=\"stat\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/9966\/1149\/files\/get-money450_450.png?v=1714337498\" alt=\"Donaties\">\n        <div id=\"number-display-6\" class=\"number\">0<\/div>\n        <p>donaties ontvangen<\/p>\n    <\/div>\n<\/div>",
+        "text_alignment": "center"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "custom_liquid_6Rer3r",
+    "custom_liquid_mErmgF"
+  ]
+}

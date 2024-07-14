@@ -1,0 +1,10 @@
+/* Specific styles for the email input in the footer on test.html page */
+#input--sections--21194190717258__footer--contactemail {
+  border: 1px solid black;
+  color: black; /* Ensure the font color is black */
+  background-color: #f0f0f0; /* Example background color */
+  padding: 10px; /* Add some padding */
+  font-size: 14px; /* Set font size */
+  width: 100%; /* Full width input */
+  box-sizing: border-box; /* Include padding and border in element's total width and height */
+}

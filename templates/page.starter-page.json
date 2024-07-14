@@ -1,0 +1,96 @@
+{
+  "sections": {
+    "custom_liquid_rqrw98": {
+      "type": "custom-liquid",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div class=\"stats-container\">\n    <div class=\"stat\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/9966\/1149\/files\/howitworks-2_480x480_8df1618d-714b-4d85-93a3-0a1420087c9f.png?v=1714249852\" alt=\"CO2 Compensation\">\n        <div id=\"number-display-7\" class=\"number\">0<\/div>\n        <p>ton CO2 gecompenseerd<\/p>\n    <\/div>\n    <div class=\"stat\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/9966\/1149\/files\/howitworks-5_480x480_4e92ff6f-a1ec-473f-aa14-fe3e87989800.png?v=1714249852\" alt=\"Forest Protection\">\n        <div id=\"number-display-8\" class=\"number\">0<\/div>\n        <p>hectare bos beschermd<\/p>\n    <\/div>\n    <div class=\"stat\">\n        <img src=\"https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/9966\/1149\/files\/howitworks-6_480x480_398166b2-44a9-49b7-a9fb-4f895905be8b.png?v=1714249852\" alt=\"Total Trees Planted\">\n        <div id=\"number-display-9\" class=\"number\">0<\/div>\n        <p>totaal aantal bomen geplant<\/p>\n    <\/div>\n<\/div>",
+        "text_alignment": "center"
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "countdown_FrRhMX": {
+      "type": "countdown",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "subheading": "Het is 1 voor 12: Samen kunnen we het verschil maken",
+        "title": "Neem Nu Actie: Red de Aarde met Plant N Boom!",
+        "content": "<p>De gevolgen van klimaatverandering zijn onmiskenbaar. Soms genieten we van de vele zonuren, zoals in maart 2022, maar op andere momenten worstelen we met overvloedig water in Valkenburg en worden onze bossen geteisterd door hevige stormen. We lopen steeds meer risico op een onleefbare wereld met onvoorspelbare gevolgen voor onze kinderen en komende generaties. We mogen hen niet opzadelen met onoplosbare problemen zoals smeltende poolkappen en brandende wouden.<\/p><p>Het is 1 voor 12. Hoog tijd om actie te ondernemen. We kunnen ons niet langer verbergen voor de verantwoordelijkheid die we dragen voor de klimaatcrisis. Daarom moeten we samenwerken om een oplossing te vinden. En dat moet nu gebeuren! Als we nu niets doen, dan komt er een dag waarop de aarde niet langer bewoonbaar zal zijn voor toekomstige generaties.<\/p><p>Maar het is nog niet te laat!<\/p><p>Er is nu direct actie nodig! Als we nu samen in actie komen, kunnen we deze crisis afwenden. We moeten onmiddellijk onze CO2-uitstoot reduceren en de huidige CO2 uit de atmosfeer verwijderen. Technische oplossingen zijn nog in ontwikkeling. Gelukkig halen bomen van nature CO2 uit de atmosfeer. Daarom moeten we nu bomen planten.<\/p><p>Maak nu actie! Je kunt vandaag al beginnen. Doe niet langer mee aan de destructie van onze aarde. <\/p><p>Stichting Plant N Boom is de juiste partner om de CO2-uitstoot van je bedrijf of organisatie te verminderen en te compenseren. Wij beschikken over de expertise en de oprechte inzet om dit samen met jou te realiseren.<\/p><p>Word vandaag nog CO2-neutraal!<\/p>",
+        "button_link": "https:\/\/www.planteenboom.nu\/pages\/co2_voetafdruk_organisatie",
+        "button_text": "Klik hier om een verschil te maken",
+        "expiration_date": "2024-08-01",
+        "expiration_behavior": "leave",
+        "timer_position": "end",
+        "animate_number": true,
+        "flip_background": "",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "before_after_tnNrmi": {
+      "type": "before-after",
+      "blocks": {
+        "before_KJ8Lzk": {
+          "type": "before",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/20211128_115521.jpg",
+            "text": "Before",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link"
+          }
+        },
+        "after_CjjNdY": {
+          "type": "after",
+          "settings": {
+            "color_scheme": "",
+            "image": "shopify:\/\/shop_images\/teak_forest_Makombeh.jpg",
+            "text": "After",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "link"
+          }
+        }
+      },
+      "block_order": [
+        "before_KJ8Lzk",
+        "after_CjjNdY"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": true,
+        "subheading": "De Urgentie van Nu: Tijd om te Handelen voor Onze Toekomst",
+        "title": "Neem de Leiding in de Strijd Tegen Klimaatverandering",
+        "content": "<p>In een wereld waar de gevolgen van klimaatverandering steeds duidelijker worden, van de overvloedige zonuren tot aan de verwoestende stormen, is het nu meer dan ooit tijd om actie te ondernemen. Onze bossen worden geteisterd en de toekomst van onze kinderen staat op het spel. De gegevens zijn duidelijk en onmiskenbaar: zonder ingrijpende veranderingen riskeren we een onleefbare wereld.<\/p><p>Bij Stichting Plant N Boom begrijpen we de omvang van deze uitdaging. Het is 1 voor 12, maar het is nog niet te laat om een verschil te maken. Door nu te handelen, door nu bomen te planten, kunnen we niet alleen CO2 compenseren, maar ook een krachtig signaal afgeven aan de wereld: we staan klaar om onze verantwoordelijkheden te nemen. Samen kunnen we deze crisis aanpakken en de wereld veranderen.<\/p>",
+        "cursor_direction": "horizontal",
+        "cursor_initial_position": 50,
+        "cursor_background": "#ffffff",
+        "cursor_arrows_color": "#000000"
+      }
+    }
+  },
+  "order": [
+    "custom_liquid_rqrw98",
+    "main",
+    "countdown_FrRhMX",
+    "before_after_tnNrmi"
+  ]
+}

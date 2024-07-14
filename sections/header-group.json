@@ -1,0 +1,112 @@
+{
+  "type": "header",
+  "name": "Header group",
+  "sections": {
+    "announcement-bar": {
+      "type": "announcement-bar",
+      "blocks": {
+        "message-1": {
+          "type": "message",
+          "disabled": true,
+          "settings": {
+            "text": "Announce something here"
+          }
+        }
+      },
+      "block_order": [
+        "message-1"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "enable_sticky": false,
+        "autoplay": true,
+        "cycle_speed": 5,
+        "desktop_font_size": 11,
+        "mobile_font_size": 10
+      }
+    },
+    "header": {
+      "type": "header",
+      "blocks": {
+        "mega_menu_XLxpfL": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Particulier",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/product1_03e36804-e19b-4b90-9ae5-4d0d4238f33a.jpg",
+            "image_1_heading": "koop een boom (voor jezelf)",
+            "image_1_text": "10 eur",
+            "image_1_link": "shopify:\/\/products\/kopie-van-koop-een-boom-voor-jezelf1",
+            "image_2": "shopify:\/\/shop_images\/product2_de69cd4b-a0b6-452e-b3bf-0540364d62db.jpg",
+            "image_2_heading": "geeft een boom cadeau",
+            "image_2_text": "10 eur",
+            "image_2_link": "shopify:\/\/products\/geef-een-boom-cadeau1"
+          }
+        },
+        "mega_menu_rKHRnb": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Tools",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/540_electric_car_e9f372ca-28ee-4219-8e32-cf67d8db12a2.jpg",
+            "image_1_heading": "Beheer Je Woon-werkverkeer (WPM)",
+            "image_1_text": "Gebruik onze WPM-tool om je dagelijkse woon-werkverkeer eenvoudig bij te houden",
+            "image_1_link": "https:\/\/forms.zohopublic.eu\/greenmakombeh\/form\/Toolrapportageverpichtingwerkgebondenpersonenmobil\/formperma\/hVuks-iW5fob2H3IR1IwsbN-ks7WaB7A1abIV3LTUH4",
+            "image_2": "shopify:\/\/shop_images\/kwekerij.jpg",
+            "image_2_heading": "Naar CO2-Neutraliteit met WPM-Advies",
+            "image_2_text": "Laat Plant N Boom je leiden naar WPM-compliance, CO2-neutraal worden en een 'Return on Environment' realiseren.",
+            "image_2_link": "shopify:\/\/pages\/zakelijk"
+          }
+        },
+        "mega_menu_jVcQbp": {
+          "type": "mega_menu",
+          "settings": {
+            "menu_item": "Zakelijke homepage",
+            "images_position": "right",
+            "image_1": "shopify:\/\/shop_images\/electric_car_3200x1200_13592198-c706-4708-a8f2-64f03a3d7e5a.jpg",
+            "image_1_heading": "Rapportageplicht laten verzorgen door Plant N Boom",
+            "image_1_text": "",
+            "image_1_link": "shopify:\/\/pages\/contact",
+            "image_2_heading": "",
+            "image_2_text": "",
+            "image_2_link": ""
+          }
+        }
+      },
+      "block_order": [
+        "mega_menu_XLxpfL",
+        "mega_menu_rKHRnb",
+        "mega_menu_jVcQbp"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "enable_sticky": true,
+        "hide_on_scroll": false,
+        "show_separation_border": true,
+        "reduce_padding": false,
+        "logo": "{{ shop.brand.logo }}",
+        "logo_max_width": 140,
+        "logo_mobile_max_width": 100,
+        "menu": "main-menu",
+        "sidebar_menu": "",
+        "menu_open_trigger": "hover",
+        "enable_search": true,
+        "sidebar_color_scheme": "",
+        "sidebar_text_font": "heading",
+        "sidebar_show_dividers": true,
+        "layout": "logo_left_navigation_inline",
+        "show_icons": true,
+        "show_country_selector": true,
+        "show_country_name": false,
+        "show_country_flag": false,
+        "show_locale_selector": false,
+        "transparent_header_text_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "announcement-bar",
+    "header"
+  ]
+}

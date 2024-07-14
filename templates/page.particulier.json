@@ -1,0 +1,469 @@
+{
+  "sections": {
+    "image_with_text_overlay_KLFzPh": {
+      "type": "image-with-text-overlay",
+      "blocks": {
+        "heading_CfMjXA": {
+          "type": "heading",
+          "settings": {
+            "text": "Draag bij aan een beter klimaat",
+            "heading_tag": "h4"
+          }
+        },
+        "subheading_dt6Veb": {
+          "type": "subheading",
+          "settings": {
+            "text": "Elke boom telt, plant nu jouw boom!"
+          }
+        },
+        "button_FBRUTm": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Koop een Boom",
+            "url": "shopify:\/\/products\/kopie-van-koop-een-boom-voor-jezelf1",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "button_q6mGte": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Geef een Boom Cadeau",
+            "url": "shopify:\/\/products\/geef-een-boom-cadeau1",
+            "background": "",
+            "text_color": ""
+          }
+        },
+        "richtext_t3A7Db": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Bomen zijn essentieel voor het verminderen van CO2 in onze atmosfeer en helpen de opwarming van de aarde tegen te gaan. Draag bij door nu je eigen boom te planten of een boom cadeau te geven.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "heading_CfMjXA",
+        "subheading_dt6Veb",
+        "button_FBRUTm",
+        "button_q6mGte",
+        "richtext_t3A7Db"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/women_particulier_1920x1280_94cd3dfd-e5eb-4a76-8401-eaf88994ebb4.jpg",
+        "mobile_image": "shopify:\/\/shop_images\/women_particulier_1280x1920_6f892eba-7a07-49b6-9ca2-5b81a4ff7c8d.jpg",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "main": {
+      "type": "main-page",
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "show_title": false,
+        "page_width": "xs"
+      }
+    },
+    "images_with_text_scroll_rmrLpw": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_aWkWdz": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-20220928-WA0008.jpg",
+            "subheading": "",
+            "title": "Waarom nu?",
+            "content": "<p>De wereld stevent af op een temperatuurstijging tussen de 1.5 en 3 graden. De natuur kan de snelheid van de verandering niet bijbenen en raakt in de war. De mens krijgt te maken met extreme droogte, wind en regen en mede daardoor enorme schade aan infrastructuur, huizen en de natuur. Mensen veroorzaken<br\/>deze schade, maar kunnen de problemen ook helpen oplossen. Dat moet NU gebeuren om onherstelbare schade te voorkomen. De wereld praat en jij kunt direct iets doen!<\/p>",
+            "link_text": "Plant Nu Je Boom",
+            "link_url": "shopify:\/\/products\/kopie-van-koop-een-boom-voor-jezelf1",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_aWkWdz"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "background_image": "shopify:\/\/shop_images\/landslide_1080.jpg",
+        "image_position": "end",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "images_with_text_scroll_4GynnQ": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_GiwGTr": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kadi_gps.jpg",
+            "subheading": "",
+            "title": "",
+            "content": "<p>In het hart van onze operaties staat Kadiatu Bangura, de vrouw van de operatiemanager bij KETSO, onze toegewijde lokale partner in Sierra Leone. Kadiatu is een cruciale schakel in onze missie om de natuurlijke omgeving te herstellen en te verrijken door middel van herbebossing.<\/p><p><strong>\"Ik geloof sterk in de kracht van bomen,\"<\/strong> zegt Kadiatu, terwijl ze zachtjes de bladeren van een jonge boom aanraakt. <strong>\"Het planten van bomen is niet alleen goed voor onze planeet; het brengt ons ook tastbare voordelen.\"<\/strong><\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_jfYxVb": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kadi_boompje.jpg",
+            "subheading": "",
+            "title": "",
+            "content": "<p>Kadiatu heeft gezien hoe de bomen die wij samen planten, gemeenschappen transformeren. Naast de cruciale rol die ze spelen in het opnemen van CO2 en het produceren van zuurstof, beginnen veel van de geplante bomen vruchten af te werpen. <strong>\"Deze bomen zullen ons niet alleen beschermen tegen de klimaatverandering, maar ons ook voorzien van fruit en andere hulpbronnen die essentieel zijn voor ons dagelijks leven,\"<\/strong> legt ze uit.<\/p><p>Door haar ervaringen met de lokale gemeenschap te delen, inspireert Kadiatu anderen om deel te nemen aan onze initiatieven. Haar verhaal is een krachtig voorbeeld van hoe individuele acties kunnen bijdragen aan een groter goed en tegelijkertijd directe voordelen bieden voor de lokale gemeenschappen.<\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_9DQCgP": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kadi_mulch.jpg",
+            "subheading": "",
+            "title": "",
+            "content": "<p><strong>\"Elke boom die we planten, is een stap naar een duurzamere en veerkrachtigere toekomst,\"<\/strong> voegt ze toe, hoopvol. <strong>\"We nodigen iedereen uit om ons te helpen meer bomen te planten en deel te worden van deze prachtige transformatie.\"<\/strong><\/p>",
+            "link_text": "Doe mee met Kadiatu en duizenden anderen die de aarde een betere plek maken. Plant vandaag nog uw boom en zie het verschil dat u kunt maken.",
+            "link_url": "shopify:\/\/products\/geef-een-boom-cadeau1",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_GiwGTr",
+        "image_with_text_jfYxVb",
+        "image_with_text_9DQCgP"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "image_position": "start",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "images_with_text_scroll_gaAxMt": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_3pHWa9": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/joseph_1920x1920_613d81e6-115e-40c7-beed-14902f94de8e.jpg",
+            "subheading": "",
+            "title": "Joseph Kargbo - Een Jonge Getuige van Verandering",
+            "content": "<p>Mijn naam is Joseph Kargbo, en ik ben de zoon van Idriss Kargbo, een gepensioneerde medewerker van KETSO. Mijn vader heeft jarenlang bomen geplant en daarmee een fundamentele rol gespeeld in het veranderen van ons landschap en onze toekomst.<\/p><p><strong>\"Het planten van bomen is essentieel,\"<\/strong> vertelt Joseph met een overtuiging die verder reikt dan zijn jaren. <strong>\"Wanneer je een boom plant, draagt deze bij aan het verwijderen van koolstofdioxide uit de atmosfeer. Dit helpt niet alleen om de aarde te beschermen tegen opwarming, maar bevordert ook een gezonde leefomgeving voor ons allemaal.\"<\/strong><\/p><p><\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_tQgePU": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/jospeh2.jpg",
+            "subheading": "",
+            "title": "",
+            "content": "<p>Joseph legt verder uit hoe deze bomen direct invloed hebben op de agrarische gemeenschap. <strong>\"De bomen helpen de temperatuur te reguleren en bieden bescherming aan onze gewassen. Zonder deze bomen zouden onze plantages en zelfs de dieren die van deze plantages afhankelijk zijn, lijden. Boeren zouden hun inkomen verliezen.\"<\/strong><\/p><p>Dankzij zijn vader's inspanningen ziet Joseph de directe voordelen van herbebossing. <strong>\"Het planten van bomen helpt niet alleen de boeren, maar ook jongeren zoals ik. Het biedt ons zuurstof en een hoop voor een duurzamere toekomst.\"<\/strong><\/p>",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_hiwiGP": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/joseph_3.jpg",
+            "subheading": "",
+            "title": "",
+            "content": "<p><strong>\"Ik ben trots op mijn vader en wat hij heeft bereikt voor onze gemeenschap,\"<\/strong> zegt Joseph. <strong>\"Ik hoop dat meer mensen geïnspireerd raken om bomen te planten en deel te nemen aan deze belangrijke taak. Elke boom maakt een verschil en samen kunnen we onze wereld veranderen.\"<\/strong><\/p>",
+            "link_text": "Doe mee met Joseph en de vele anderen die zich inzetten voor een groenere, gezondere planeet. Plant vandaag nog uw boom en word deel van een blijvende verandering.",
+            "link_url": "shopify:\/\/products\/doneer",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_3pHWa9",
+        "image_with_text_tQgePU",
+        "image_with_text_hiwiGP"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "background_image": "shopify:\/\/shop_images\/teak_forest_Makombeh.jpg",
+        "image_position": "end",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
+    "image_with_text_THHPeh": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_Rbm3jz": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_fjirMy": {
+          "type": "heading",
+          "settings": {
+            "text": "Vind jouw boom",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_hDhtqa": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Bomen zijn cruciaal in de strijd tegen klimaatverandering. Ze spelen een vitale rol in het reguleren van de temperatuur op aarde door schadelijk CO2 uit de lucht te halen en om te zetten in zuurstof, wat essentieel is voor leven.<\/p>"
+          }
+        },
+        "page_mhcDG4": {
+          "type": "page",
+          "settings": {
+            "page": "hoe-je-bijdraagt"
+          }
+        },
+        "button_Bmjn4L": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Volg de groei van je boom",
+            "url": "https:\/\/www.planteenboom.nu\/pages\/online-bomen-database",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_Rbm3jz",
+        "heading_fjirMy",
+        "richtext_hDhtqa",
+        "page_mhcDG4",
+        "button_Bmjn4L"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/map_bomen_568x426_d690ae29-528d-4e76-b829-db3e6ba6f81e.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "md",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_fGwUH6": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_YAgciB": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_KzMXXf": {
+          "type": "heading",
+          "settings": {
+            "text": "Wat is mijn uitstoot?",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_C3qVyK": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Plant een boom voor slechts €10 en maak een blijvend verschil voor onze planeet. Elke boom die je plant, helpt bij het verminderen van CO2 in onze atmosfeer en biedt een stap voorwaarts naar een duurzamere wereld.<\/p>"
+          }
+        },
+        "richtext_KGrNt3": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Weten hoeveel bomen je nodig hebt om jouw persoonlijke CO2-uitstoot te compenseren kan uitdagend zijn. Daarom hebben wij een speciale rekenmachine ontwikkeld. Met een paar eenvoudige gegevens over jouw levensstijl, zoals reisgewoonten, energieverbruik en algemene consumptie, kan onze calculator nauwkeurig berekenen hoeveel bomen je zou moeten planten om een koolstofneutrale levensstijl te bereiken.<\/p><p>Niet alleen individueel, maar ook samen met je gezin, vrienden of collega's kun je een groot verschil maken. Onze rekenmachine is een geweldig hulpmiddel om samen te gebruiken en iedereen te betrekken bij het verminderen van jullie collectieve koolstofvoetafdruk.<\/p>"
+          }
+        },
+        "button_MJDJ9E": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Bepaal je uitstoot",
+            "url": "https:\/\/www.planteenboom.nu\/pages\/co2-calculator-thuis",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_YAgciB",
+        "heading_KzMXXf",
+        "richtext_C3qVyK",
+        "richtext_KGrNt3",
+        "button_MJDJ9E"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/rekenmodule528x422.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "md",
+        "remove_vertical_spacing": true
+      }
+    },
+    "image_with_text_DgRtex": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_WqkjDL": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_DnJnjY": {
+          "type": "heading",
+          "settings": {
+            "text": "Wat is de impact van bomen planten?",
+            "heading_tag": "h3"
+          }
+        },
+        "richtext_zP3EUq": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Elke boom die je plant speelt een cruciale rol in onze gezamenlijke strijd tegen klimaatverandering. Door CO2 uit de atmosfeer op te nemen, helpen jouw bomen niet alleen de globale temperatuurstijging te beperken, maar dragen ze ook bij aan een gezondere planeet voor toekomstige generaties.<\/p>"
+          }
+        },
+        "richtext_nnmn97": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>Wanneer je een boom plant, start je een kettingreactie van positieve effecten. Bomen slaan koolstofdioxide op en zetten dit om in zuurstof, wat essentieel is voor het leven op aarde. Jaar na jaar blijven ze CO2 opnemen, wat helpt jouw persoonlijke bijdrage aan broeikasgassen te neutraliseren. Dit omvat uitstoot door je dagelijkse activiteiten zoals energieverbruik, reizen, voeding en algemene consumptie.<\/p><p><a href=\"https:\/\/www.planteenboom.nu\/pages\/waarom-bomen-planten\" title=\"https:\/\/www.planteenboom.nu\/pages\/waarom-bomen-planten\">Lees verder -&gt;<\/a><\/p><p><\/p>"
+          }
+        },
+        "button_EEJe8A": {
+          "type": "button",
+          "settings": {
+            "style": "solid",
+            "text": "Plant elke maand 1 boom",
+            "url": "shopify:\/\/products\/abonnement",
+            "background": "",
+            "text_color": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_WqkjDL",
+        "heading_DnJnjY",
+        "richtext_zP3EUq",
+        "richtext_nnmn97",
+        "button_EEJe8A"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/boer_banaan_1080.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "end",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "featured_collections_Hc9CDY": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_phDtYr": {
+          "type": "collection",
+          "settings": {
+            "collection": "trees",
+            "products_count": 8,
+            "title": "",
+            "link_url": "shopify:\/\/collections\/trees",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "collection_phDtYr"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 4,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": "Wat Kun Je Doen?"
+      }
+    },
+    "slideshow_z88NjN": {
+      "type": "slideshow",
+      "blocks": {
+        "image_mKLbPD": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/the_blue_marble.gif",
+            "subheading": "<strong>Test jouw kennis en ontdek hoe duurzaam jouw levensstijl is!<\/strong>",
+            "title": "Doe Mee Aan Onze Duurzaamheidsquiz!",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "Start de quiz",
+            "button_1_link": "https:\/\/zfrmz.eu\/pC8O8jS5Ok1N9YT3IbPK",
+            "button_1_style": "solid",
+            "button_1_background": "#45b910",
+            "button_1_text_color": "#000000",
+            "button_2_text": "Compenseer je uitstoot",
+            "button_2_link": "https:\/\/www.planteenboom.nu\/pages\/abonnementen-om-co2-neutraal-te-worden",
+            "button_2_style": "outline",
+            "button_2_background": "#45b910",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_mKLbPD"
+      ],
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": true,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    }
+  },
+  "order": [
+    "image_with_text_overlay_KLFzPh",
+    "main",
+    "images_with_text_scroll_rmrLpw",
+    "images_with_text_scroll_4GynnQ",
+    "images_with_text_scroll_gaAxMt",
+    "image_with_text_THHPeh",
+    "image_with_text_fGwUH6",
+    "image_with_text_DgRtex",
+    "featured_collections_Hc9CDY",
+    "slideshow_z88NjN"
+  ]
+}

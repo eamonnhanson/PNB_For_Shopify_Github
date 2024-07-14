@@ -1,0 +1,74 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        ".package {margin: 0px; \/* Space between columns *\/}",
+        "@media (max-width: 768px) {.pricing-container {flex-direction: column; \/* Stapelt de kolommen verticaal op kleinere schermen *\/ align-items: center; \/* Centreert kolommen horizontaal *\/ } .package {width: 100%; \/* Kolommen nemen de volledige breedte van de container in *\/ margin-bottom: 20px; \/* Voegt ruimte toe tussen gestapelde kolommen *\/ }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "multi_column_ijPEXA": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_WBkTpL": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "<strong>BASIS Pakket<\/strong>",
+            "heading_tag": "h4",
+            "content": "<p><strong>Prijs<\/strong>: € 1.000<\/p><p><strong>Inclusief<\/strong>: Vrijwillige CO2-compensatie voor bedrijven tot 100 werknemers.<\/p><ul><li>Administratie WPM-proof<\/li><li>Persoonlijke ondersteuning via onze supportlijn.<\/li><li>Vermelding op ons online dashboard<\/li><li>Gedetailleerde CO2-Inventarisatie en Reductieadvies.<\/li><li>Het planten van 100 bomen.<\/li><li>Ondersteuning van 1 boer en het herstel van 0,5 hectare bos.<\/li><li>Uitgifte van een Persoonlijk Certificaat.<\/li><li>Communicatiematerialen en periodieke updates over de voortgang.<\/li><\/ul>",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/9966\/1149\/files\/20240414_Basispakket.pdf?v=1713109687",
+            "link_text": "Download de factsheet"
+          }
+        },
+        "image_with_text_NiFrEd": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "<strong>STANDAARD Pakket<\/strong>",
+            "heading_tag": "h4",
+            "content": "<p><strong>Prijs<\/strong>: € 10.000<\/p><ul><li><strong>Inclusief<\/strong>: Uitgebreide dienstverlening voor bedrijven met 100-1000 werknemers.<\/li><\/ul><p><\/p><ul><li>Alles van het BASIS pakket, plus:<\/li><li>Het planten van 1000 bomen.<\/li><li>Ondersteuning van 5 boer en het herstel van 5 hectare bos.<\/li><li>Jaarlijkse Voortgangsrapportages.<\/li><li>Duurzaamheidsworkshops voor medewerkers.<\/li><li>Gepersonaliseerd Partnerschapscertificaat.<\/li><li>Toegang tot exclusieve Netwerkevenementen voor Duurzaamheid.<\/li><\/ul>",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/9966\/1149\/files\/20240414_Standaardpakket.pdf?v=1713109687",
+            "link_text": "Download de factsheet"
+          }
+        },
+        "image_with_text_xxYBjd": {
+          "type": "image_with_text",
+          "settings": {
+            "title": "<strong>PREMIUM Pakket<\/strong>",
+            "heading_tag": "h4",
+            "content": "<p><strong>Prijs<\/strong>: € 50.000<\/p><p><strong>Inclusief<\/strong>: ESG\/CSRD rapportage voor bedrijven boven 1000 werknemers.<\/p><ul><li>Alles van het STANDAARD pakket, plus:<\/li><li>Het planten van 5000 bomen.<\/li><li>Ondersteuning van 25 boeren en het herstel van 25 hectare bos.<\/li><li>Diepgaande ESG-Consultancy en CSRD Compliance Advies.<\/li><li>Uitvoering van Duurzaamheidsaudits.<\/li><li>Ondersteuning bij de Implementatie van Duurzaamheidsinitiatieven.<\/li><li>Ontwikkeling van Stakeholder Engagement Programma’s.<\/li><\/ul>",
+            "link_url": "https:\/\/cdn.shopify.com\/s\/files\/1\/0555\/9966\/1149\/files\/20240414_Premiumpakket.pdf?v=1713109687",
+            "link_text": "Downlaod de factsheet"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_WBkTpL",
+        "image_with_text_NiFrEd",
+        "image_with_text_xxYBjd"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "columns_per_row": 3,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "center",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "WPM-Compliance en CO2-Compensatiepakketten",
+        "content": "<p>Vind het ideale pakket voor je WPM-verplichtingen en duurzaamheidsdoelen<\/p>"
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multi_column_ijPEXA"
+  ]
+}

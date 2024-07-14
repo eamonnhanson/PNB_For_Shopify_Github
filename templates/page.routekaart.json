@@ -1,0 +1,242 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "settings": {
+        "color_scheme": "",
+        "show_title": true,
+        "page_width": "xs"
+      }
+    },
+    "image_with_text_overlay_8Txi7R": {
+      "type": "image-with-text-overlay",
+      "settings": {
+        "color_scheme": "",
+        "image_size": "auto",
+        "image": "shopify:\/\/shop_images\/PNB_Step_1_230406_Routekaart_Plant_N_Boom.png",
+        "allow_transparent_header": false,
+        "reveal_on_scroll": true,
+        "remove_vertical_spacing": true,
+        "content_width": "md",
+        "mobile_text_position": "place-self-center text-center",
+        "desktop_text_position": "sm:place-self-center sm:text-center",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "timeline_UmJPXi": {
+      "type": "timeline",
+      "blocks": {
+        "item_NBpz6m": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/hand_how_1200_x_1200.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/hand_naar_schoffel_mobiel_750x1000_1d82311e-157e-4f50-b352-812967ba5b70.jpg",
+            "label": "Stap 1",
+            "subheading": "Stap 1:",
+            "title": "Het is 1 voor 12",
+            "content": "<p>Klimaatverandering bedreigt onze toekomst met extreme weersomstandigheden en onvoorspelbare gevolgen. Word vandaag nog CO2-neutraal en draag bij aan een leefbare planeet met onze expertise.<\/p>",
+            "link_text": "Lees verder",
+            "link_url": "shopify:\/\/pages\/urgentie",
+            "link_style": "link",
+            "mobile_text_color": "#ffffff"
+          }
+        },
+        "item_3DHfdm": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/rekenmodule.jpg",
+            "label": "2",
+            "subheading": "Stap 2",
+            "title": "De QuickScan",
+            "content": "<p>Met onze QuickScan krijg je snel inzicht in de CO2-uitstoot van jouw bedrijf en hoeveel bomen nodig zijn om deze te compenseren. Ontdek hoe jij kunt bijdragen aan een duurzamere toekomst.<\/p>",
+            "link_text": "Lees verder",
+            "link_url": "https:\/\/www.planteenboom.nu\/pages\/co2_voetafdruk_organisatie",
+            "link_style": "link",
+            "mobile_text_color": "#ffffff"
+          }
+        },
+        "item_pTFw4Q": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/leaf_contract.jpg",
+            "label": "3",
+            "subheading": "Stap 3: Compensatie",
+            "title": "Sluit Jouw CO2-neutrale Reis Af met een Overeenkomst",
+            "content": "<p>Nu is het tijd om jouw CO2-neutrale reis officieel te maken. Ontdek hoe het opstellen van een overeenkomst met Plant N Boom jouw organisatie helpt om direct stappen te zetten richting een duurzamere toekomst.<\/p>",
+            "link_text": "Lees verder",
+            "link_url": "shopify:\/\/pages\/compenseren",
+            "link_style": "link",
+            "mobile_text_color": "#ffffff"
+          }
+        },
+        "item_9eMCHj": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kadi_boompje.jpg",
+            "label": "4",
+            "subheading": "Stap 4",
+            "title": "Planten",
+            "content": "<p>Ontdek hoe het planten van bomen niet alleen bijdraagt aan het verminderen van CO2-uitstoot, maar ook hoe je jouw aangekochte bomen kunt volgen op hun groeireis. Lees verder om te zien hoe jij jouw impact op het milieu kunt vergroten en volgen via google maps.<\/p>",
+            "link_text": "Lees verder",
+            "link_url": "https:\/\/www.planteenboom.nu\/pages\/planten-van-bomen",
+            "link_style": "link",
+            "mobile_text_color": "#ffffff"
+          }
+        },
+        "item_hWJktV": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20230803_ASR_Certificaat_zilver.jpg",
+            "label": "5",
+            "subheading": "STAP 5",
+            "title": "Duurzaam Imago",
+            "content": "<p>In deze stap van ons stappenplan ontdek je hoe je jouw duurzame beslissingen effectief kunt communiceren en je imago kunt verbeteren. Lees verder om te zien hoe je jouw partnerschap met Plant N Boom kunt benutten om jouw inspanningen op een positieve manier onder de aandacht te brengen.<\/p>",
+            "link_text": "Lees verder",
+            "link_url": "https:\/\/www.planteenboom.nu\/pages\/stap-5-versterk-je-imago-en-inspireer",
+            "link_style": "link",
+            "mobile_text_color": "#ffffff"
+          }
+        },
+        "item_6VtEbR": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/office.jpg",
+            "mobile_image": "shopify:\/\/shop_images\/office.jpg",
+            "label": "6",
+            "subheading": "STAP 6",
+            "title": "Nulmeting",
+            "content": "<p>Ontdek hoe je de CO2-uitstoot van jouw bedrijf nauwkeurig in kaart brengt en toekomstige ontwikkelingen voorbereidt. Leer hoe stap 6, de nulmeting, jou helpt om concrete stappen te zetten op weg naar duurzaamheid.<\/p>",
+            "link_text": "Lees verder",
+            "link_url": "https:\/\/www.planteenboom.nu\/pages\/nulmeting-de-sleutel-tot-nauwkeurige-co2-berekeningen",
+            "link_style": "link",
+            "mobile_text_color": "#ffffff"
+          }
+        },
+        "item_c9AKmH": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/540_electric_car_e9f372ca-28ee-4219-8e32-cf67d8db12a2.jpg",
+            "label": "7",
+            "subheading": "Stap 7",
+            "title": "Advies CO2-reductie",
+            "content": "<p>Leer hoe je de CO2-uitstoot van jouw bedrijf effectief kunt verminderen. Stap 7 van de Plant N Boom routekaart biedt waardevolle inzichten en adviezen om jouw organisatie op weg te helpen naar een duurzame toekomst.<\/p>",
+            "link_text": "Lees verder",
+            "link_url": "https:\/\/www.planteenboom.nu\/pages\/duurzaam-bouwen-groener-leven",
+            "link_style": "link",
+            "mobile_text_color": "#ffffff"
+          }
+        },
+        "item_ghie3L": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/subsidies_ec11b029-d4d1-4836-b80e-25b0d68e45bf.jpg",
+            "label": "8",
+            "subheading": "Stap 8",
+            "title": "Subsities",
+            "content": "<p>Leer hoe je subsidies kunt benutten om jouw duurzame initiatieven te ondersteunen. Stap 8 van de Plant N Boom routekaart biedt een overzicht van beschikbare subsidies en fiscale regelingen om jouw CO2-neutrale doelen te bereiken.<\/p>",
+            "link_text": "Lees verder",
+            "link_url": "https:\/\/www.planteenboom.nu\/pages\/subsidiewijzer",
+            "link_style": "link",
+            "mobile_text_color": "#ffffff"
+          }
+        },
+        "item_xmaYVr": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/risicotabel_NL_0521b6bf-e8be-41db-b89e-8b7b35860dad.jpg",
+            "label": "9",
+            "subheading": "Stap 9",
+            "title": "Risicoanalyse",
+            "content": "<p>Verken de potentiële risico's die zich kunnen voordoen tijdens jouw reis naar CO2-neutraliteit. Stap 9 van de Plant N Boom routekaart biedt inzicht in het identificeren, evalueren en beheersen van risico's om jouw duurzame doelstellingen te bereiken.<\/p>",
+            "link_text": "Lees verder",
+            "link_url": "https:\/\/www.planteenboom.nu\/pages\/risico-analyse-in-het-verduurzamingsproces",
+            "link_style": "link",
+            "mobile_text_color": "#ffffff"
+          }
+        },
+        "item_YMAdQp": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/enquete.jpg",
+            "label": "10",
+            "subheading": "Stap 10",
+            "title": "Rapportage",
+            "content": "<p>Ontdek hoe het opstellen van een uitgebreide rapportage jouw organisatie kan helpen bij het bereiken van CO2-neutraliteit. Stap 10 van de Plant N Boom routekaart biedt een gestructureerd overzicht van alle relevante bevindingen en aanbevelingen, essentieel voor een effectieve duurzame strategie.<\/p>",
+            "link_text": "Lees verder",
+            "link_url": "https:\/\/www.planteenboom.nu\/pages\/rapportage-documenteer-uw-duurzame-reis",
+            "link_style": "link",
+            "mobile_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "item_NBpz6m",
+        "item_3DHfdm",
+        "item_pTFw4Q",
+        "item_9eMCHj",
+        "item_hWJktV",
+        "item_6VtEbR",
+        "item_c9AKmH",
+        "item_ghie3L",
+        "item_xmaYVr",
+        "item_YMAdQp"
+      ],
+      "custom_css": [],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "item_color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true
+      }
+    },
+    "timeline_NiG4bm": {
+      "type": "timeline",
+      "blocks": {
+        "item_4A8xCT": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/kadi_gps.jpg",
+            "label": "Stap 11",
+            "subheading": "Stap 11",
+            "title": "Herijking",
+            "content": "<p>Ontdek hoe stap 11 van de Plant N Boom routekaart kan helpen bij het verifiëren van jouw CO2-profiel en het nauwkeurig bepalen van de benodigde compensatie. Herijking biedt de mogelijkheid om eerdere schattingen te valideren en het juiste aantal bomen te planten voor een echte CO2-neutrale impact.<\/p>",
+            "link_text": "Lees verder",
+            "link_url": "https:\/\/www.planteenboom.nu\/pages\/herijking-waar-nauwkeurigheid-centraal-staat",
+            "link_style": "link",
+            "mobile_text_color": "#ffffff"
+          }
+        },
+        "item_aqLA8E": {
+          "type": "item",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/20240316_tractor_women1080x810.jpg",
+            "label": "12",
+            "subheading": "Stap 12",
+            "title": "Spaar de Aarde",
+            "content": "<p>Verken stap 12 van onze routekaart en ontdek hoe ons \"Spaar de Aarde\" programma verder gaat dan alleen CO2-neutraliteit. Leer hoe we met recycling, groene ontwikkelingsprojecten en het beschermen van de natuur een blijvende impact creëren.<\/p>",
+            "link_text": "Lees verder",
+            "link_url": "https:\/\/www.planteenboom.nu\/pages\/spaar-de-aarde-programma",
+            "link_style": "link",
+            "mobile_text_color": "#ffffff"
+          }
+        }
+      },
+      "block_order": [
+        "item_4A8xCT",
+        "item_aqLA8E"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "item_color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true
+      }
+    }
+  },
+  "order": [
+    "main",
+    "image_with_text_overlay_8Txi7R",
+    "timeline_UmJPXi",
+    "timeline_NiG4bm"
+  ]
+}

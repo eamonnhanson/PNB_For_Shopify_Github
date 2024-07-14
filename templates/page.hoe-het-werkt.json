@@ -1,0 +1,89 @@
+{
+  "sections": {
+    "main": {
+      "type": "main-page",
+      "disabled": true,
+      "custom_css": [
+        ".package {margin: 0px; \/* Space between columns *\/}",
+        "@media (max-width: 768px) {.pricing-container {flex-direction: column; \/* Stapelt de kolommen verticaal op kleinere schermen *\/ align-items: center; \/* Centreert kolommen horizontaal *\/ } .package {width: 100%; \/* Kolommen nemen de volledige breedte van de container in *\/ margin-bottom: 20px; \/* Voegt ruimte toe tussen gestapelde kolommen *\/ }}"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "show_title": true,
+        "page_width": "sm"
+      }
+    },
+    "multi_column_xGTmqa": {
+      "type": "multi-column",
+      "blocks": {
+        "image_with_text_9FJ7Jw": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/howitworks-1_256x256_crop_center_0aff36d6-0d14-4768-a0df-875b5e93d305.png",
+            "title": "JE KOOPT EEN BOOM",
+            "heading_tag": "h3",
+            "content": "<p>Koop een boom die we in Sierra Leone Planten<\/p>",
+            "link_url": "shopify:\/\/products\/kopie-van-koop-een-boom-voor-jezelf1",
+            "link_text": "Koop nu"
+          }
+        },
+        "image_with_text_eYC6Kq": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/howitworks-2_256x256_crop_center_47f76569-cc5d-4f11-9571-4b1e21babd46.png",
+            "title": "Wij onderhouden het",
+            "heading_tag": "h3",
+            "content": "<p>Onze lokale kwekerij <a href=\"https:\/\/www.ketso.nl\" title=\"https:\/\/www.ketso.nl\">KETSO<\/a> plant en onderhoudt jouw boom<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        },
+        "image_with_text_gnWMdK": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/howitworks-3_256x256_crop_center_69a8aaf7-3400-40ce-9690-2ac7523a6bc6.png",
+            "title": "JE CO2 WORDT GECOMPENSEERD",
+            "heading_tag": "h3",
+            "content": "<p>De bomen nemen koolstofdioxide op en dragen hierdoor bij aan schone lucht<\/p>",
+            "link_url": "https:\/\/www.planteenboom.nu\/pages\/how-wordt-co2-berekend",
+            "link_text": "Hoe wordt de CO2-uitstoot berekend?"
+          }
+        },
+        "image_with_text_WDzpVq": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/howitworks-4_256x256_crop_center_d735408d-26c3-428b-9e69-7a1557660862.png",
+            "title": "JE KUNT JE BOOM TRACEREN",
+            "heading_tag": "h3",
+            "content": "<p>Je ziet de <a href=\"\/pages\/online-bomen-database\" title=\"Online-bomen-database\">locatie<\/a> van de bomen en volgt de ontwikkeling via de website<\/p>",
+            "link_url": "",
+            "link_text": ""
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_9FJ7Jw",
+        "image_with_text_eYC6Kq",
+        "image_with_text_gnWMdK",
+        "image_with_text_WDzpVq"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "columns_per_row": 4,
+        "stack_on_mobile": false,
+        "overlap_image": false,
+        "content_alignment": "start",
+        "text_alignment": "start",
+        "spacing": "md",
+        "subheading": "",
+        "title": "Hoe het werkt",
+        "content": ""
+      }
+    }
+  },
+  "order": [
+    "main",
+    "multi_column_xGTmqa"
+  ]
+}
