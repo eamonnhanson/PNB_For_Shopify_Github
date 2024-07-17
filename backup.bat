@@ -10,3 +10,9 @@ cd C:\Users\eamon\shopify\PNB_For_Shopify_Github
 
 rem Add changes to Git
 git add .
+
+rem Commit changes to Git
+git commit -m "Backup Shopify theme files"
+
+rem Push changes to the remote repository
+git push origin main
