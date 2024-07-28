@@ -1,78 +1,230 @@
-document.addEventListener('DOMContentLoaded', function() {
-    document.getElementById('email-form').addEventListener('submit', function(event) {
-        event.preventDefault();
+document.addEventListener('DOMContentLoaded', function () {
+    const formData = {
+        email: null,
+        zohoData: null,
+        userInputs: {},
+    };
 
-        const email = document.getElementById('input--sections--21194190717258__footer--contactemail').value;
+    function handleEmailForm() {
+        const emailForm = document.getElementById('email-form');
+        if (!emailForm) {
+            console.error('Email form element not found');
+            return;
+        }
 
-        // Show loading message after the button is clicked
-        document.getElementById('loading-message').style.display = 'block';
+        emailForm.addEventListener('submit', function (event) {
+            event.preventDefault();
 
-        console.log(`Fetching data for email: ${email}`);
-
-        fetch('https://zoho-calls-e0dc91dd8cf4.herokuapp.com/fetch-achternaam', {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSON.stringify({ email: email })
-        })
-        .then(response => {
-            console.log('Response received', response);
-            if (!response.ok) {
-                throw new Error('Network response was not ok ' + response.statusText);
+            const emailInput = document.getElementById('input--sections--21194190717258__footer--contactemail');
+            if (!emailInput) {
+                console.error('Email input element not found');
+                return;
             }
-            return response.json();
-        })
-        .then(data => {
-            console.log('Data received:', data);
-            document.getElementById('loading-message').style.display = 'none';  // Hide the loading message
-            if (data.data && data.data.length > 0) {
-                const userRecord = data.data[0];
-                if (userRecord.Teller < 6) {
-                    const bedrijf = userRecord.Bedrijf || 'Bedrijf not found';
-                    document.getElementById('achternaam-display').innerText = bedrijf;
-                    document.getElementById('introduction-section').style.display = 'block';
-                    document.getElementById('login-form').style.display = 'block';
+
+            const email = emailInput.value;
+            formData.email = email;
+
+            const loadingMessage = document.getElementById('loading-message');
+            if (loadingMessage) {
+                loadingMessage.style.display = 'block';
+            }
+
+            console.log(`Fetching data for email: ${email}`);
+
+            fetch('https://zoho-calls-e0dc91dd8cf4.herokuapp.com/fetch-achternaam', {
+                method: 'POST',
+                headers: {
+                    'Content-Type': 'application/json',
+                },
+                body: JSON.stringify({ email: email }),
+            })
+                .then((response) => {
+                    console.log('Response received from Zoho CRM:', response);
+                    if (!response.ok) {
+                        throw new Error('Network response was not ok ' + response.statusText);
+                    }
+                    return response.json();
+                })
+                .then((data) => {
+                    console.log('Data received from Zoho CRM:', data);
+                    formData.zohoData = data.data[0];
+                    if (loadingMessage) {
+                        loadingMessage.style.display = 'none';
+                    }
+                    console.log('Updated formData with Zoho data:', formData);
+
+                    // Continue to the next form section
+                    if (emailForm) emailForm.style.display = 'none';
+                    const introductionSection = document.getElementById('introduction-section');
+                    if (introductionSection) introductionSection.style.display = 'block';
+                })
+                .catch((error) => {
+                    console.error('Error:', error);
+                    if (loadingMessage) {
+                        loadingMessage.style.display = 'none';
+                    }
+                    alert('There was an error fetching data from Zoho. Please try again later.');
+                });
+        });
+    }
+
+    function handleIntroductionSection() {
+        const agreeBtn = document.getElementById('agree-btn');
+        if (!agreeBtn) {
+            console.error('Agree button not found');
+            return;
+        }
+
+        agreeBtn.addEventListener('click', function () {
+            console.log('Agree button clicked');
+            const introductionSection = document.getElementById('introduction-section');
+            if (introductionSection) introductionSection.style.display = 'none';
+            const loginForm = document.getElementById('login-form');
+            if (loginForm) loginForm.style.display = 'block';
+        });
+    }
+
+    function handleUserInputForm() {
+        const loginForm = document.getElementById('login-form');
+        if (!loginForm) {
+            console.error('User input form element not found');
+            return;
+        }
+
+        const submitTransportInfoButton = document.getElementById('submit-transport-info');
+        if (!submitTransportInfoButton) {
+            console.error('Submit transport info button not found');
+            return;
+        }
+
+        submitTransportInfoButton.addEventListener('click', function (event) {
+            console.log('Submit transport info button clicked');
+            event.preventDefault();
+
+            const daysOfWeek = [
+                'zondag',
+                'maandag',
+                'dinsdag',
+                'woensdag',
+                'donderdag',
+                'vrijdag',
+                'zaterdag',
+            ];
+            daysOfWeek.forEach((day) => {
+                const vehicle = document.querySelector(`select[name="vehicle_${day}"]`);
+                const fuel = document.querySelector(`select[name="fuel_${day}"]`);
+                const kilometers = document.querySelector(`input[name="kilometers_${day}"]`);
+
+                if (vehicle && fuel && kilometers) {
+                    formData.userInputs[`vehicle_${day}`] = vehicle.value;
+                    formData.userInputs[`fuel_${day}`] = fuel.value;
+                    formData.userInputs[`kilometers_${day}`] = kilometers.value;
                 } else {
-                    document.getElementById('achternaam-display').innerText = 'Teller value is 6 or greater';
+                    console.error(`Input elements for ${day} not found`);
+                }
+            });
+
+            console.log('User inputs captured:', formData.userInputs);
+
+            // Continue to the next form section
+            if (loginForm) loginForm.style.display = 'none';
+            const newQuestionSection = document.getElementById('new-question-section');
+            if (newQuestionSection) newQuestionSection.style.display = 'block';
+        });
+    }
+
+    function handleNewQuestionSection() {
+        const newQuestionForm = document.getElementById('new-question-section');
+        if (!newQuestionForm) {
+            console.error('New question form element not found');
+            return;
+        }
+
+        const submitNewQuestionBtn = document.getElementById('submit-new-question');
+        if (!submitNewQuestionBtn) {
+            console.error('Submit new question button not found');
+            return;
+        }
+
+        submitNewQuestionBtn.addEventListener('click', function () {
+            const leaseAnswer = document.querySelector('input[name="lease"]:checked');
+            if (leaseAnswer) {
+                console.log(`Lease answer: ${leaseAnswer.value}`);
+                formData.userInputs.lease = leaseAnswer.value;
+
+                if (leaseAnswer.value === 'yes') {
+                    const leaseDetailsSection = document.getElementById('lease-details-section');
+                    if (leaseDetailsSection) leaseDetailsSection.style.display = 'block';
+                } else {
+                    const thankYouMessage = document.getElementById('thank-you-message');
+                    if (thankYouMessage) thankYouMessage.style.display = 'block';
                 }
             } else {
-                document.getElementById('achternaam-display').innerText = 'No matching records found';
+                console.error('Lease answer not found');
             }
-        })
-        .catch(error => {
-            console.error('Error fetching Bedrijf:', error);
-            document.getElementById('loading-message').style.display = 'none';  // Hide the loading message
-            document.getElementById('achternaam-display').innerText = 'De informatie kan niet opgehaald worden. Stuur een email naar info@planteenboom.nu om de fout te melden.';
         });
-    });
+    }
 
-    document.getElementById('submit-transport-info').addEventListener('click', function() {
-        document.getElementById('login-form').style.display = 'none';
-        document.getElementById('new-question-section').style.display = 'block';
-    });
-
-    document.getElementById('submit-new-question').addEventListener('click', function() {
-        const leaseAnswer = document.querySelector('input[name="lease"]:checked').value;
-        console.log(`Lease answer: ${leaseAnswer}`);
-
-        if (leaseAnswer === 'yes') {
-            document.getElementById('lease-details-section').style.display = 'block';
-        } else {
-            document.getElementById('thank-you-message').style.display = 'block';
+    function handleLeaseDetailsSection() {
+        const submitLeaseDetailsBtn = document.getElementById('submit-lease-details');
+        if (!submitLeaseDetailsBtn) {
+            console.error('Submit lease details button not found');
+            return;
         }
-    });
 
-    document.getElementById('submit-lease-details').addEventListener('click', function() {
-        document.getElementById('thank-you-message').style.display = 'block';
-    });
+        submitLeaseDetailsBtn.addEventListener('click', function () {
+            const leaseVehicle = document.querySelector('select[name="lease_vehicle"]');
+            const leaseFuel = document.querySelector('select[name="lease_fuel"]');
+            const leaseKilometers = document.querySelector('input[name="lease_kilometers"]');
 
-    document.getElementById('more-info-checkbox').addEventListener('change', function() {
-        const loginForm = document.getElementById('login-form');
-        if (this.checked) {
-            loginForm.style.display = 'block';
-        } else {
-            loginForm.style.display = 'none';
-        }
-    });
+            if (leaseVehicle && leaseFuel && leaseKilometers) {
+                formData.userInputs.leaseDetails = {
+                    vehicle: leaseVehicle.value,
+                    fuel: leaseFuel.value,
+                    kilometers: leaseKilometers.value,
+                };
+                console.log('Lease details captured:', formData.userInputs.leaseDetails);
+
+                const thankYouMessage = document.getElementById('thank-you-message');
+                if (thankYouMessage) thankYouMessage.style.display = 'block';
+
+                // Prepare for final submission
+                const finalPayload = {
+                    ...formData.zohoData,
+                    ...formData.userInputs,
+                };
+
+                console.log('Final payload being sent to Heroku:', finalPayload);
+
+                fetch('https://testtest-wpm-06c0781a39f1.herokuapp.com/proxy-zoho-flow', {
+                    method: 'POST',
+                    headers: {
+                        'Content-Type': 'application/json',
+                    },
+                    body: JSON.stringify(finalPayload),
+                })
+                    .then((response) => {
+                        console.log('Response received from Zoho Flow proxy server:', response);
+                        if (!response.ok) {
+                            throw new Error('Error sending data to Zoho Creator: ' + response.statusText);
+                        }
+                        return response.json();
+                    })
+                    .then((data) => {
+                        console.log('Data sent to Zoho Creator successfully:', data);
+                    })
+                    .catch((error) => {
+                        console.error('Error sending data to Zoho Creator:', error);
+                    });
+            } else {
+                console.error('Lease details input elements not found');
+            }
+        });
+    }
+
+    handleEmailForm();
+    handleIntroductionSection();
+    handleUserInputForm();
+    handleNewQuestionSection();
+    handleLeaseDetailsSection();
 });
