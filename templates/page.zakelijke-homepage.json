@@ -317,6 +317,20 @@
         "overlay_opacity": 30
       }
     },
+    "custom_liquid_kyfLq6": {
+      "type": "custom-liquid",
+      "custom_css": [
+        "#partners-anchor {display: block; }"
+      ],
+      "settings": {
+        "color_scheme": "",
+        "separate_section_with_border": false,
+        "remove_vertical_spacing": true,
+        "remove_horizontal_spacing": false,
+        "liquid": "<span id=\"partners-anchor\"><\/span>",
+        "text_alignment": "center"
+      }
+    },
     "logo_list_fjqLGe": {
       "type": "logo-list",
       "blocks": {
@@ -326,6 +340,14 @@
             "logo": "shopify:\/\/shop_images\/war-child-logo-png-transparent_250.png",
             "logo_width": 120,
             "link": "https:\/\/www.planteenboom.nu\/pages\/war-child"
+          }
+        },
+        "logo_LrVQpC": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/monet_logo.png",
+            "logo_width": 120,
+            "link": "https:\/\/www.monetgardenhotelamsterdam.com\/"
           }
         },
         "logo_aG8DMa": {
@@ -427,6 +449,7 @@
       },
       "block_order": [
         "logo_8TiXAr",
+        "logo_LrVQpC",
         "logo_aG8DMa",
         "logo_ptBYU6",
         "logo_CEKpjX",
@@ -864,6 +887,7 @@
     "image_with_text_YYEbjF",
     "image_with_text_AUaPwJ",
     "countdown_f9Ad6T",
+    "custom_liquid_kyfLq6",
     "logo_list_fjqLGe",
     "slideshow_J36rDR",
     "media_grid_PVw8KX",
