@@ -320,7 +320,7 @@
     "custom_liquid_kyfLq6": {
       "type": "custom-liquid",
       "custom_css": [
-        "#partners-anchor {display: block; }"
+        "#partners-anchor {display: block;}"
       ],
       "settings": {
         "color_scheme": "",
@@ -340,6 +340,14 @@
             "logo": "shopify:\/\/shop_images\/war-child-logo-png-transparent_250.png",
             "logo_width": 120,
             "link": "https:\/\/www.planteenboom.nu\/pages\/war-child"
+          }
+        },
+        "logo_cJyp4Y": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/bouw_alliantie_logo_300.jpg",
+            "logo_width": 120,
+            "link": "https:\/\/www.planteenboom.nu\/pages\/bouw-alliantie"
           }
         },
         "logo_LrVQpC": {
@@ -449,6 +457,7 @@
       },
       "block_order": [
         "logo_8TiXAr",
+        "logo_cJyp4Y",
         "logo_LrVQpC",
         "logo_aG8DMa",
         "logo_ptBYU6",
