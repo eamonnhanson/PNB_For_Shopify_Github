@@ -410,6 +410,295 @@
         "text_color": "",
         "text_alignment": "center"
       }
+    },
+    "video_xwYqJr": {
+      "type": "video",
+      "blocks": {
+        "play_m4fXJb": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_dbEYW7": {
+          "type": "heading",
+          "settings": {
+            "text": "Plant Jouw Boom Nu!",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_m4fXJb",
+        "heading_dbEYW7"
+      ],
+      "settings": {
+        "autoplay": true,
+        "show_controls": false,
+        "video_size": "md",
+        "video": "shopify:\/\/files\/videos\/20241123 kerstmutsen korte vid.mp4",
+        "external_video_url": "https:\/\/www.youtube.com\/watch?v=_9VUPq3SxOc",
+        "text_color": "#ffffff"
+      }
+    },
+    "countdown_aH6c4X": {
+      "type": "countdown",
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "image_size": "auto",
+        "subheading": "KLIK HIER OM TE <a href=\"https:\/\/paymentlink.mollie.com\/payment\/AQxzaX9ugN7TpAm500wf\/\" title=\"https:\/\/paymentlink.mollie.com\/payment\/AQxzaX9ugN7TpAm500wf\/\">DONEREN<\/a>",
+        "title": "De kersttijd tikt",
+        "content": "<p>Wacht niet te lang! Jouw kerstboomcadeau vangt CO₂ op, helpt families aan voedsel en maakt de wereld groener.<\/p>",
+        "button_link": "shopify:\/\/products\/geef-een-boom-cadeau1",
+        "button_text": "Geef een Boom als Kerstcadeau!",
+        "expiration_date": "2024-12-25",
+        "expiration_behavior": "hide",
+        "timer_position": "end",
+        "animate_number": true,
+        "flip_background": "",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "slideshow_z9yNfy": {
+      "type": "slideshow",
+      "blocks": {
+        "image_7GHa3r": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/agnes.jpg",
+            "subheading": "Boerinnen krijgen een kans",
+            "title": "Elke boom vangt CO₂ op en draagt bij aan een groenere wereld.",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_hHdEiX": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/IMG-20220928-WA0013_6e80a7c8-be56-4f63-8fb2-e73f40e04965.jpg",
+            "subheading": "Tussen de rijen bomen door kunnen boerinnen rijst verbouwen",
+            "title": "Je helpt gemeenschappen zoals Makombeh in Sierra Leone aan voedselzekerheid en economische stabiliteit.",
+            "mobile_text_position": "place-self-end-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        },
+        "image_YVYdP6": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/002abucutlass.jpg",
+            "subheading": "Help lokale boeren",
+            "title": "",
+            "mobile_text_position": "place-self-center text-center",
+            "desktop_text_position": "sm:place-self-center sm:text-center",
+            "content_max_width": 780,
+            "button_1_text": "",
+            "button_1_link": "",
+            "button_1_style": "solid",
+            "button_1_background": "#ffffff",
+            "button_1_text_color": "#000000",
+            "button_2_text": "",
+            "button_2_link": "",
+            "button_2_style": "outline",
+            "button_2_background": "#ffffff",
+            "button_2_text_color": "#000000",
+            "background": "",
+            "background_opacity": 50,
+            "text_color": "#ffffff",
+            "border_color": "",
+            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
+          }
+        }
+      },
+      "block_order": [
+        "image_7GHa3r",
+        "image_hHdEiX",
+        "image_YVYdP6"
+      ],
+      "settings": {
+        "allow_transparent_header": true,
+        "show_next_section_button": true,
+        "media_size": "auto",
+        "show_initial_transition": false,
+        "autoplay": true,
+        "autoplay_pause_on_video": true,
+        "cycle_speed": 5,
+        "background": "#000000",
+        "controls_color": "#ffffff"
+      }
+    },
+    "featured_collections_xtfmUV": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_kcJwiG": {
+          "type": "collection",
+          "settings": {
+            "collection": "trees",
+            "products_count": 8,
+            "title": "",
+            "link_url": "https:\/\/paymentlink.mollie.com\/payment\/AQxzaX9ugN7TpAm500wf\/",
+            "link_text": "Doneer nu"
+          }
+        }
+      },
+      "block_order": [
+        "collection_kcJwiG"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
+    "image_with_text_8dpdzy": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_L73WnM": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_AAXgdE": {
+          "type": "heading",
+          "settings": {
+            "text": "Breng Groene Levenskracht naar het Spoormuseum",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_AmWHmi": {
+          "type": "richtext",
+          "settings": {
+            "content": "<p>In 2025 willen we het terrein rondom het Spoormuseum in Sierra Leone vergroenen. Dit project verbindt lokaal erfgoed met duurzaamheid.<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_L73WnM",
+        "heading_AAXgdE",
+        "richtext_AmWHmi"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/train_73.jpg",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "custom_liquid_3BQTnp": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div id=\"train-section\">\n    <p>\n        Afgelopen week heeft een brand het spoorwegmuseum in Sierra Leone geraakt, \n        een symbool van erfgoed en hoop voor de gemeenschap. Dit incident herinnert ons eraan \n        hoe kwetsbaar dit soort locaties zijn – en hoe belangrijk het is om actie te ondernemen \n        om ze te beschermen en te versterken. Bij Plant N Boom geloven we in wederopbouw door natuur en gemeenschap te verbinden. Door bomen te planten rond het museum, helpen we niet alleen bij het herstel van het terrein, maar creëren we ook een duurzame buffer die bescherming biedt tegen toekomstige risico's.\n    <\/p>\n<\/div>",
+        "text_alignment": "center"
+      }
+    },
+    "video_WDmQmL": {
+      "type": "video",
+      "blocks": {
+        "play_XEFkM9": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_yQPN4a": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_XEFkM9",
+        "heading_yQPN4a"
+      ],
+      "settings": {
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "md",
+        "external_video_url": "https:\/\/youtu.be\/WylAEgBkiO4",
+        "poster": "shopify:\/\/shop_images\/WhatsApp_Image_2024-11-20_at_16.21.57_ff3beddc.jpg",
+        "text_color": "#ffffff"
+      }
+    },
+    "video_a46Ki9": {
+      "type": "video",
+      "blocks": {
+        "play_LM4yGK": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_Vph7yV": {
+          "type": "heading",
+          "settings": {
+            "text": "Plant N Boom & ProRail: Samen bouwen aan een groenere toekomst!",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_LM4yGK",
+        "heading_Vph7yV"
+      ],
+      "settings": {
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "fill",
+        "external_video_url": "https:\/\/youtu.be\/Endkpw537lU",
+        "poster": "shopify:\/\/shop_images\/prorail.jpg",
+        "text_color": "#ffffff"
+      }
     }
   },
   "order": [
@@ -418,6 +707,14 @@
     "countdown_f9Ad6T",
     "images_with_text_scroll_8xDQgM",
     "media_grid_PVw8KX",
-    "text_with_icons_Phyw7m"
+    "text_with_icons_Phyw7m",
+    "video_xwYqJr",
+    "countdown_aH6c4X",
+    "slideshow_z9yNfy",
+    "featured_collections_xtfmUV",
+    "image_with_text_8dpdzy",
+    "custom_liquid_3BQTnp",
+    "video_WDmQmL",
+    "video_a46Ki9"
   ]
 }

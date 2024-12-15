@@ -1,5 +1,57 @@
 {
   "sections": {
+    "countdown_QyiUJb": {
+      "type": "countdown",
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/women_particulier.jpg",
+        "image_size": "auto",
+        "subheading": "Klik hier om te <a href=\"https:\/\/paymentlink.mollie.com\/payment\/AQxzaX9ugN7TpAm500wf\/\" title=\"https:\/\/paymentlink.mollie.com\/payment\/AQxzaX9ugN7TpAm500wf\/\">doneren<\/a>",
+        "title": "De Kersttijd tikt",
+        "content": "<p>Wacht niet te lang! Jouw kerstboomcadeau vangt CO₂ op, helpt families aan voedsel en maakt de wereld groener.<\/p>",
+        "button_link": "shopify:\/\/pages\/forest-hero",
+        "button_text": "Word Forest Hero",
+        "expiration_date": "2024-12-25",
+        "expiration_behavior": "hide",
+        "timer_position": "end",
+        "animate_number": true,
+        "flip_background": "",
+        "flip_background_opacity": 50,
+        "flip_text_color": "",
+        "overlay_color": "#000000",
+        "overlay_opacity": 30
+      }
+    },
+    "featured_collections_BNgdTW": {
+      "type": "featured-collections",
+      "blocks": {
+        "collection_V9iAJt": {
+          "type": "collection",
+          "settings": {
+            "collection": "trees",
+            "products_count": 5,
+            "title": "",
+            "link_url": "https:\/\/paymentlink.mollie.com\/payment\/AQxzaX9ugN7TpAm500wf\/",
+            "link_text": "Ik wil doneren"
+          }
+        }
+      },
+      "block_order": [
+        "collection_V9iAJt"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "hide_product_information": false,
+        "stack_products": false,
+        "products_per_row_mobile": "2",
+        "products_per_row_desktop": 5,
+        "horizontal_spacing_factor": 1,
+        "vertical_spacing_factor": 1,
+        "subheading": ""
+      }
+    },
     "slideshow": {
       "type": "slideshow",
       "blocks": {
@@ -48,6 +100,8 @@
     }
   },
   "order": [
+    "countdown_QyiUJb",
+    "featured_collections_BNgdTW",
     "slideshow"
   ]
 }
