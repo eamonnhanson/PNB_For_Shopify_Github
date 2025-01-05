@@ -152,13 +152,40 @@ document.addEventListener('DOMContentLoaded', function () {
                 console.log(`Lease answer: ${leaseAnswer.value}`);
                 formData.userInputs.lease = leaseAnswer.value;
 
-                if (leaseAnswer.value === 'yes') {
-                    const leaseDetailsSection = document.getElementById('lease-details-section');
-                    if (leaseDetailsSection) leaseDetailsSection.style.display = 'block';
-                } else {
-                    const thankYouMessage = document.getElementById('thank-you-message');
-                    if (thankYouMessage) thankYouMessage.style.display = 'block';
-                }
+              if (leaseAnswer.value === 'yes') {
+    const leaseDetailsSection = document.getElementById('lease-details-section');
+    if (leaseDetailsSection) leaseDetailsSection.style.display = 'block';
+} else {
+    // Send data to webhook for the "Nee" case
+    const finalPayload = {
+        ...formData.zohoData,
+        ...formData.userInputs,
+    };
+
+    fetch('https://testtest-wpm-06c0781a39f1.herokuapp.com/proxy-zoho-flow', {
+        method: 'POST',
+        headers: {
+            'Content-Type': 'application/json',
+        },
+        body: JSON.stringify(finalPayload),
+    })
+    .then((response) => {
+        if (!response.ok) {
+            throw new Error('Error sending data to Zoho Creator: ' + response.statusText);
+        }
+        return response.json();
+    })
+    .then((data) => {
+        console.log('Data sent to Zoho Creator successfully:', data);
+    })
+    .catch((error) => {
+        console.error('Error sending data to Zoho Creator:', error);
+    });
+
+    const thankYouMessage = document.getElementById('thank-you-message');
+    if (thankYouMessage) thankYouMessage.style.display = 'block';
+}
+
             } else {
                 console.error('Lease answer not found');
             }

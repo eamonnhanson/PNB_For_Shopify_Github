@@ -2,6 +2,7 @@
   "sections": {
     "countdown_QyiUJb": {
       "type": "countdown",
+      "disabled": true,
       "settings": {
         "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
         "separate_section_with_border": true,
@@ -28,6 +29,7 @@
       "blocks": {
         "collection_V9iAJt": {
           "type": "collection",
+          "disabled": true,
           "settings": {
             "collection": "trees",
             "products_count": 5,
@@ -97,11 +99,56 @@
         "background": "#000000",
         "controls_color": "#ffffff"
       }
+    },
+    "image_with_text_4DKzLr": {
+      "type": "image-with-text",
+      "blocks": {
+        "heading_r9GgAr": {
+          "type": "heading",
+          "settings": {
+            "text": "Doe mee en help ons groeien",
+            "heading_tag": "h1"
+          }
+        },
+        "liquid_GTJHHf": {
+          "type": "liquid",
+          "settings": {
+            "liquid": "<!-- Include the Chargebee Script in the Header -->\n<script src=\"https:\/\/js.chargebee.com\/v2\/chargebee.js\" data-cb-site=\"planteenboom\"><\/script>\n\n<div id=\"forest-hero-counter\" class=\"forest-counter-container\">\n    <!-- Counter Section -->\n    <div class=\"forest-counter-text\">\n        <p>We hebben nu <span id=\"subscription-counter\">30<\/span> Forest Heroes!<\/p>\n    <\/div>\n\n    <!-- Call-to-Action Button -->\n    <div class=\"forest-counter-button\">\n        <a href=\"javascript:void(0)\" \n           data-cb-type=\"checkout\" \n           data-cb-item-0=\"1-boom-per-maand-EUR-Monthly\" \n           data-cb-item-0-quantity=\"1\" \n           class=\"forest-subscribe-btn\">Abonneer nu!<\/a>\n    <\/div>\n<\/div>\n\n<!-- Link the Custom CSS -->\n<link rel=\"stylesheet\" href=\"{{ 'counter_forest_hero.css' | asset_url }}\">"
+          }
+        }
+      },
+      "block_order": [
+        "heading_r9GgAr",
+        "liquid_GTJHHf"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/20241229_NINJA_animation3_1000x1000_f42b7938-696a-47a3-981e-2f17e3e1a66e.gif",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "custom_liquid_LtiFAM": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div id=\"forest-counter\">\n  <p id=\"counter-text\">\n    We have <span id=\"tree-count\">0<\/span> new forest heroes! \n    We need <span id=\"remaining-count\">100<\/span> more.\n  <\/p>\n  <div id=\"forest-progress\">\n    <!-- Trees will be dynamically added here -->\n  <\/div>\n<\/div>\n\n<!-- Include the Chargebee Script in the Header -->\n<script src=\"https:\/\/js.chargebee.com\/v2\/chargebee.js\" data-cb-site=\"planteenboom\"><\/script>\n\n<div id=\"forest-hero-counter\" class=\"forest-counter-container\">\n    <!-- Counter Section -->\n    <div class=\"forest-counter-text\">\n        <p>We hebben nu <span id=\"subscription-counter\">30<\/span> Forest Heroes!<\/p>\n    <\/div>\n\n    <!-- Call-to-Action Button -->\n    <div class=\"forest-counter-button\">\n        <a href=\"javascript:void(0)\" \n           data-cb-type=\"checkout\" \n           data-cb-item-0=\"1-boom-per-maand-EUR-Monthly\" \n           data-cb-item-0-quantity=\"1\" \n           class=\"forest-subscribe-btn\">Abonneer nu!<\/a>\n    <\/div>\n<\/div>\n\n<!-- Link the Custom CSS -->\n<link rel=\"stylesheet\" href=\"{{ 'counter_forest_hero.css' | asset_url }}\">",
+        "text_alignment": "center"
+      }
     }
   },
   "order": [
     "countdown_QyiUJb",
     "featured_collections_BNgdTW",
-    "slideshow"
+    "slideshow",
+    "image_with_text_4DKzLr",
+    "custom_liquid_LtiFAM"
   ]
 }

@@ -432,6 +432,7 @@
         "play_m4fXJb",
         "heading_dbEYW7"
       ],
+      "disabled": true,
       "settings": {
         "autoplay": true,
         "show_controls": false,
@@ -491,64 +492,10 @@
             "border_color": "",
             "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
           }
-        },
-        "image_hHdEiX": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/IMG-20220928-WA0013_6e80a7c8-be56-4f63-8fb2-e73f40e04965.jpg",
-            "subheading": "Tussen de rijen bomen door kunnen boerinnen rijst verbouwen",
-            "title": "Je helpt gemeenschappen zoals Makombeh in Sierra Leone aan voedselzekerheid en economische stabiliteit.",
-            "mobile_text_position": "place-self-end-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
-        },
-        "image_YVYdP6": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/002abucutlass.jpg",
-            "subheading": "Help lokale boeren",
-            "title": "",
-            "mobile_text_position": "place-self-center text-center",
-            "desktop_text_position": "sm:place-self-center sm:text-center",
-            "content_max_width": 780,
-            "button_1_text": "",
-            "button_1_link": "",
-            "button_1_style": "solid",
-            "button_1_background": "#ffffff",
-            "button_1_text_color": "#000000",
-            "button_2_text": "",
-            "button_2_link": "",
-            "button_2_style": "outline",
-            "button_2_background": "#ffffff",
-            "button_2_text_color": "#000000",
-            "background": "",
-            "background_opacity": 50,
-            "text_color": "#ffffff",
-            "border_color": "",
-            "gradient_overlay": "linear-gradient(180deg, rgba(54, 54, 54, 0.2), rgba(4, 4, 4, 0.65) 100%)"
-          }
         }
       },
       "block_order": [
-        "image_7GHa3r",
-        "image_hHdEiX",
-        "image_YVYdP6"
+        "image_7GHa3r"
       ],
       "settings": {
         "allow_transparent_header": true,
@@ -591,6 +538,47 @@
         "subheading": ""
       }
     },
+    "video_QBVGUx": {
+      "type": "video",
+      "blocks": {
+        "play_DCMHaN": {
+          "type": "play",
+          "settings": {
+            "icon_color": "#ffffff"
+          }
+        },
+        "heading_VANNJp": {
+          "type": "heading",
+          "settings": {
+            "text": "🌿 Help mee het Spoorwegmuseum van Sierra Leone te herstellen! 🚂",
+            "heading_tag": "h2"
+          }
+        }
+      },
+      "block_order": [
+        "play_DCMHaN",
+        "heading_VANNJp"
+      ],
+      "settings": {
+        "autoplay": false,
+        "show_controls": true,
+        "video_size": "md",
+        "external_video_url": "https:\/\/youtu.be\/O9k9_xJPSA8",
+        "poster": "shopify:\/\/shop_images\/in_front_of_engine.png",
+        "text_color": "#ffffff"
+      }
+    },
+    "custom_liquid_3QDgqg": {
+      "type": "custom-liquid",
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "remove_vertical_spacing": false,
+        "remove_horizontal_spacing": false,
+        "liquid": "<div id=\"trein-section\">\n<\/div>",
+        "text_alignment": "center"
+      }
+    },
     "image_with_text_8dpdzy": {
       "type": "image-with-text",
       "blocks": {
@@ -610,7 +598,7 @@
         "richtext_AmWHmi": {
           "type": "richtext",
           "settings": {
-            "content": "<p>In 2025 willen we het terrein rondom het Spoormuseum in Sierra Leone vergroenen. Dit project verbindt lokaal erfgoed met duurzaamheid.<\/p>"
+            "content": "<p>Dit jaar gaan we het terrein rondom het Spoormuseum in Sierra Leone vergroenen. Dit project verbindt lokaal erfgoed met duurzaamheid.<\/p>"
           }
         }
       },
@@ -636,7 +624,7 @@
         "separate_section_with_border": true,
         "remove_vertical_spacing": false,
         "remove_horizontal_spacing": false,
-        "liquid": "<div id=\"train-section\">\n    <p>\n        Afgelopen week heeft een brand het spoorwegmuseum in Sierra Leone geraakt, \n        een symbool van erfgoed en hoop voor de gemeenschap. Dit incident herinnert ons eraan \n        hoe kwetsbaar dit soort locaties zijn – en hoe belangrijk het is om actie te ondernemen \n        om ze te beschermen en te versterken. Bij Plant N Boom geloven we in wederopbouw door natuur en gemeenschap te verbinden. Door bomen te planten rond het museum, helpen we niet alleen bij het herstel van het terrein, maar creëren we ook een duurzame buffer die bescherming biedt tegen toekomstige risico's.\n    <\/p>\n<\/div>",
+        "liquid": "<div id=\"train-section\">\n    <p>\n        In November 2024 woedde een brand het spoorwegmuseum in Sierra Leone geraakt, \n        een symbool van erfgoed en hoop voor de gemeenschap. Dit incident herinnert ons eraan \n        hoe kwetsbaar dit soort locaties zijn – en hoe belangrijk het is om actie te ondernemen \n        om ze te beschermen en te versterken. Bij Plant N Boom geloven we in wederopbouw door natuur en gemeenschap te verbinden. Door bomen te planten rond het museum, helpen we niet alleen bij het herstel van het terrein, maar creëren we ook een duurzame buffer die bescherming biedt tegen toekomstige risico's.\n    <\/p>\n<\/div>",
         "text_alignment": "center"
       }
     },
@@ -670,6 +658,42 @@
         "text_color": "#ffffff"
       }
     },
+    "rich_text_q3dTiz": {
+      "type": "rich-text",
+      "blocks": {
+        "subheading_cVEQRm": {
+          "type": "subheading",
+          "settings": {
+            "text": ""
+          }
+        },
+        "heading_Hd8L49": {
+          "type": "heading",
+          "settings": {
+            "text": "",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_GUTx6h": {
+          "type": "richtext",
+          "settings": {
+            "content": ""
+          }
+        }
+      },
+      "block_order": [
+        "subheading_cVEQRm",
+        "heading_Hd8L49",
+        "richtext_GUTx6h"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "content_width": "xs",
+        "text_position": "center",
+        "remove_vertical_spacing": false
+      }
+    },
     "video_a46Ki9": {
       "type": "video",
       "blocks": {
@@ -691,10 +715,11 @@
         "play_LM4yGK",
         "heading_Vph7yV"
       ],
+      "disabled": true,
       "settings": {
         "autoplay": false,
         "show_controls": true,
-        "video_size": "fill",
+        "video_size": "auto",
         "external_video_url": "https:\/\/youtu.be\/Endkpw537lU",
         "poster": "shopify:\/\/shop_images\/prorail.jpg",
         "text_color": "#ffffff"
@@ -712,9 +737,12 @@
     "countdown_aH6c4X",
     "slideshow_z9yNfy",
     "featured_collections_xtfmUV",
+    "video_QBVGUx",
+    "custom_liquid_3QDgqg",
     "image_with_text_8dpdzy",
     "custom_liquid_3BQTnp",
     "video_WDmQmL",
+    "rich_text_q3dTiz",
     "video_a46Ki9"
   ]
 }

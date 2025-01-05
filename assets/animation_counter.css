@@ -1,0 +1,46 @@
+#forest-counter {
+  position: relative;
+  text-align: center;
+  background: url('https://cdn.shopify.com/s/files/1/0555/9966/1149/files/A_barren_landscape_atmosph.webp?v=1735654720') no-repeat center center;
+  background-size: cover;
+  padding: 50px;
+  width: 100%;
+  max-width: 800px; /* Optional: Constrain width */
+  margin: 0 auto; /* Center the container */
+  overflow: hidden;
+}
+
+#forest-progress {
+  position: relative; /* Ensures child elements are absolutely positioned within */
+  height: 300px; /* Adjust to your container's size */
+  width: 100%; /* Full width */
+  overflow: hidden; /* Prevent elements from spilling out */
+}
+
+.tree {
+  position: absolute; /* Required for left/bottom positioning */
+  height: 50px; /* Adjust tree height */
+  width: auto;
+  animation: grow 0.5s ease-in-out; /* Animate only the new tree */
+  z-index: 1; /* Ensure trees appear properly layered */
+}
+
+@keyframes grow {
+  from {
+    transform: scaleY(0);
+  }
+  to {
+    transform: scaleY(1);
+  }
+}
+
+#counter-text {
+  font-size: 24px;
+  color: #FFFFFF; /* White text */
+  margin-top: 0; /* Remove unnecessary top margin */
+  position: absolute; /* Position it absolutely within the container */
+  top: 10px; /* Place it 10px from the top */
+  width: 100%; /* Ensure it spans the width */
+  text-align: center; /* Center the text horizontally */
+  z-index: 2; /* Ensure it stays on top of other elements */
+}
