@@ -2,6 +2,7 @@
   "sections": {
     "custom_liquid_rqrw98": {
       "type": "custom-liquid",
+      "custom_css": [],
       "settings": {
         "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
         "separate_section_with_border": true,

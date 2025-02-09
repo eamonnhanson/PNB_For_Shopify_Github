@@ -3,7 +3,7 @@ document.addEventListener("DOMContentLoaded", () => {
   const remainingCountElement = document.getElementById("remaining-count");
   const forestProgress = document.getElementById("forest-progress");
 
-  const totalTrees = 30; // Total number of trees to display
+  const totalTrees = 34; // Total number of trees to display
   const goal = 100; // Total goal of forest heroes
   const animationDuration = 10 * 1000; // 10 seconds total animation
   const interval = animationDuration / totalTrees; // Interval between adding trees

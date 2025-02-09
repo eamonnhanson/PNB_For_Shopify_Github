@@ -25,7 +25,7 @@ document.addEventListener("DOMContentLoaded", function() {
     animateNumber(65, 'number-display-7', 50, 5000); // For left container
     animateNumber(0.5, 'number-display-8', 200, 3500);  // For middle container
     animateNumber(130, 'number-display-9', 30, 4500); // For right container
-    animateNumber(7500, 'number-display-10', 50, 5000); // For left container
-    animateNumber(75, 'number-display-11', 200, 3500);  // For middle container
-    animateNumber(15000, 'number-display-12', 30, 4500); // For right container
+    animateNumber(8400, 'number-display-10', 50, 5000); // For left container WCH
+    animateNumber(75, 'number-display-11', 200, 3500);  // For middle container WCH
+    animateNumber(16800, 'number-display-12', 30, 4500); // For right container WCH
 });

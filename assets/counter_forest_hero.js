@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
     // Counter Logic
     const counterElement = document.getElementById("subscription-counter");
-    const targetNumber = 30;
+    const targetNumber = 34;
     let currentNumber = 0;
     let countRepetitions = 0;
 
