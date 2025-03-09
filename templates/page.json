@@ -12,6 +12,62 @@
         "page_width": "sm"
       }
     },
+    "images_with_text_scroll_TTkdti": {
+      "type": "images-with-text-scroll",
+      "blocks": {
+        "image_with_text_PcPfXU": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/girl_and_mama_square.jpg",
+            "subheading": "Forest Heroes",
+            "title": "Jouw boom, hun toekomst.",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_FmDNXJ": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/op_aap_square.jpg",
+            "subheading": "",
+            "title": "Een held zijn is simpel: plant een boom!",
+            "content": "",
+            "link_text": "voor 10 euro per maand word je een forest hero",
+            "link_url": "shopify:\/\/products\/abonnement",
+            "link_style": "solid"
+          }
+        },
+        "image_with_text_xBPaHM": {
+          "type": "image_with_text",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trek_je_portemonnee_square.jpg",
+            "subheading": "",
+            "title": "Hey, ik spaar voor een bos... en jij?",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
+        }
+      },
+      "block_order": [
+        "image_with_text_PcPfXU",
+        "image_with_text_FmDNXJ",
+        "image_with_text_xBPaHM"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "background_image": "shopify:\/\/shop_images\/girls_forest_empty_1080_square.jpg",
+        "mobile_background_image": "shopify:\/\/shop_images\/girl_forest_mobile_1080_1920.jpg",
+        "image_position": "start",
+        "text_alignment": "center",
+        "heading_tag": "h3",
+        "overlay_color": "#000000",
+        "overlay_opacity": 0
+      }
+    },
     "slideshow_eT3kQV": {
       "type": "slideshow",
       "blocks": {
@@ -724,10 +780,94 @@
         "poster": "shopify:\/\/shop_images\/prorail.jpg",
         "text_color": "#ffffff"
       }
+    },
+    "image_with_text_MAx9mW": {
+      "type": "image-with-text",
+      "blocks": {
+        "subheading_BVBXjk": {
+          "type": "subheading",
+          "settings": {
+            "text": "Are you passionate about restoring forests, creating jobs, and fighting climate change? Now’s your chance to <strong>make an impact AND win a special reward!<\/strong> 🎉"
+          }
+        },
+        "heading_wK9N4U": {
+          "type": "heading",
+          "settings": {
+            "text": "<strong>🌳 Become the Ultimate Forest Hero – Win an Exclusive Prize! 🌍<\/strong>",
+            "heading_tag": "h1"
+          }
+        },
+        "richtext_qcJm7W": {
+          "type": "richtext",
+          "settings": {
+            "content": "<h4><strong>🏆 The Challenge<\/strong><\/h4><p>We’re looking for the <strong>top Forest Hero recruiter<\/strong> – the person who signs up the most new subscribers to our <strong>tree subscription program<\/strong> will receive an <strong>exclusive prize<\/strong>!<\/p><p>For just <strong>€10 per month<\/strong>, each new subscriber will plant <strong>one tree every month<\/strong>, helping to restore forests, support local communities in Sierra Leone, and reduce CO₂ emissions.<\/p><h4><strong>🌱 How It Works<\/strong><\/h4><p>1️⃣ <strong>Share the mission<\/strong> – Get your friends, family, and colleagues to subscribe using the QR code.<br\/><br\/>2️⃣ <strong>Make sure they mention your name<\/strong> as a \"referer\" when signing up.<br\/><br\/>3️⃣ <strong>Track your progress<\/strong> – We will announce the top recruiter on <strong>1st May 2025<\/strong>!<\/p><h4><strong>🎁 The Prize<\/strong><\/h4><p>The Forest Hero who brings in the most new subscribers wins <strong>A PLANE TICKET TO SIERRA LEONE!<\/strong><\/p><h4><strong>📢 Why Join?<\/strong><\/h4><p>✅ <strong>Support reforestation & biodiversity<\/strong><br\/><br\/>✅ <strong>Create sustainable jobs in Sierra Leone<\/strong><br\/><br\/>✅ <strong>Offset your carbon footprint<\/strong><br\/><br\/>✅ <strong>Be part of a global movement for change<\/strong><\/p><p>🌍 <strong>Are you ready to take on the challenge?<\/strong><\/p><p><strong>➡️ Invite your friends now and become the Ultimate Forest Hero!<\/strong> 🚀🌳<\/p><p>#ForestHeroes #TreePlanting #SierraLeone #ClimateAction #JoinTheMovement 🌱<\/p>"
+          }
+        }
+      },
+      "block_order": [
+        "subheading_BVBXjk",
+        "heading_wK9N4U",
+        "richtext_qcJm7W"
+      ],
+      "disabled": true,
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "separate_section_with_border": true,
+        "image": "shopify:\/\/shop_images\/chargebee.png",
+        "reveal_on_scroll": true,
+        "image_position": "start",
+        "content_width": "sm",
+        "remove_vertical_spacing": true
+      }
+    },
+    "multiple_media_with_text_FfdKbn": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_MkdJbV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/girls_forest_empty_1080_square.jpg",
+            "rotation": 0
+          }
+        },
+        "image_RqVjct": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trek_je_portemonnee_square.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_MkdJbV",
+        "image_RqVjct"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "Word",
+        "title": "Forest Hero",
+        "content": "<p>Als ik een boom kon kopen, had ik het al gedaan!<\/p>",
+        "button_1_text": "Geef een boom cadeau",
+        "button_1_link": "shopify:\/\/products\/geef-een-boom-cadeau1",
+        "button_1_style": "outline",
+        "button_2_text": "Doneer nu & plant een boom!",
+        "button_2_link": "shopify:\/\/products\/abonnement",
+        "button_2_style": "solid"
+      }
     }
   },
   "order": [
     "main",
+    "images_with_text_scroll_TTkdti",
     "slideshow_eT3kQV",
     "countdown_f9Ad6T",
     "images_with_text_scroll_8xDQgM",
@@ -743,6 +883,8 @@
     "custom_liquid_3BQTnp",
     "video_WDmQmL",
     "rich_text_q3dTiz",
-    "video_a46Ki9"
+    "video_a46Ki9",
+    "image_with_text_MAx9mW",
+    "multiple_media_with_text_FfdKbn"
   ]
 }
