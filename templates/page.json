@@ -50,12 +50,24 @@
             "link_url": "",
             "link_style": "solid"
           }
+        },
+        "image_with_text_DhdweM": {
+          "type": "image_with_text",
+          "settings": {
+            "subheading": "",
+            "title": "",
+            "content": "",
+            "link_text": "",
+            "link_url": "",
+            "link_style": "solid"
+          }
         }
       },
       "block_order": [
         "image_with_text_PcPfXU",
         "image_with_text_FmDNXJ",
-        "image_with_text_xBPaHM"
+        "image_with_text_xBPaHM",
+        "image_with_text_DhdweM"
       ],
       "settings": {
         "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
@@ -66,6 +78,50 @@
         "heading_tag": "h3",
         "overlay_color": "#000000",
         "overlay_opacity": 0
+      }
+    },
+    "multiple_media_with_text_FfdKbn": {
+      "type": "multiple-media-with-text",
+      "blocks": {
+        "image_MkdJbV": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/girls_forest_empty_1080_square.jpg",
+            "rotation": 0
+          }
+        },
+        "image_RqVjct": {
+          "type": "image",
+          "settings": {
+            "image": "shopify:\/\/shop_images\/trek_je_portemonnee_square.jpg",
+            "rotation": 0
+          }
+        }
+      },
+      "block_order": [
+        "image_MkdJbV",
+        "image_RqVjct"
+      ],
+      "settings": {
+        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
+        "reveal_on_scroll": true,
+        "separate_section_with_border": true,
+        "media_position_desktop": "before_text",
+        "media_position_mobile": "before_text",
+        "media_layout": "overlap",
+        "media_alignment": "center",
+        "media_alignment_offset": 0,
+        "media_mobile_alignment_offset": 0,
+        "text_alignment": "center",
+        "subheading": "Word",
+        "title": "Forest Hero",
+        "content": "<p>Als ik een boom kon kopen, had ik het al gedaan!<\/p>",
+        "button_1_text": "Geef een boom cadeau",
+        "button_1_link": "shopify:\/\/products\/geef-een-boom-cadeau1",
+        "button_1_style": "outline",
+        "button_2_text": "Doneer nu & plant een boom!",
+        "button_2_link": "shopify:\/\/products\/abonnement",
+        "button_2_style": "solid"
       }
     },
     "slideshow_eT3kQV": {
@@ -819,55 +875,12 @@
         "content_width": "sm",
         "remove_vertical_spacing": true
       }
-    },
-    "multiple_media_with_text_FfdKbn": {
-      "type": "multiple-media-with-text",
-      "blocks": {
-        "image_MkdJbV": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/girls_forest_empty_1080_square.jpg",
-            "rotation": 0
-          }
-        },
-        "image_RqVjct": {
-          "type": "image",
-          "settings": {
-            "image": "shopify:\/\/shop_images\/trek_je_portemonnee_square.jpg",
-            "rotation": 0
-          }
-        }
-      },
-      "block_order": [
-        "image_MkdJbV",
-        "image_RqVjct"
-      ],
-      "settings": {
-        "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
-        "reveal_on_scroll": true,
-        "separate_section_with_border": true,
-        "media_position_desktop": "before_text",
-        "media_position_mobile": "before_text",
-        "media_layout": "overlap",
-        "media_alignment": "center",
-        "media_alignment_offset": 0,
-        "media_mobile_alignment_offset": 0,
-        "text_alignment": "center",
-        "subheading": "Word",
-        "title": "Forest Hero",
-        "content": "<p>Als ik een boom kon kopen, had ik het al gedaan!<\/p>",
-        "button_1_text": "Geef een boom cadeau",
-        "button_1_link": "shopify:\/\/products\/geef-een-boom-cadeau1",
-        "button_1_style": "outline",
-        "button_2_text": "Doneer nu & plant een boom!",
-        "button_2_link": "shopify:\/\/products\/abonnement",
-        "button_2_style": "solid"
-      }
     }
   },
   "order": [
     "main",
     "images_with_text_scroll_TTkdti",
+    "multiple_media_with_text_FfdKbn",
     "slideshow_eT3kQV",
     "countdown_f9Ad6T",
     "images_with_text_scroll_8xDQgM",
@@ -884,7 +897,6 @@
     "video_WDmQmL",
     "rich_text_q3dTiz",
     "video_a46Ki9",
-    "image_with_text_MAx9mW",
-    "multiple_media_with_text_FfdKbn"
+    "image_with_text_MAx9mW"
   ]
 }
