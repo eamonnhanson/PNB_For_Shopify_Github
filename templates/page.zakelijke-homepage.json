@@ -382,12 +382,12 @@
             "link": "https:\/\/www.planteenboom.nu\/pages\/4-smiling-faces"
           }
         },
-        "logo_jjFyFi": {
+        "logo_MQDwYT": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/logo2.jpg",
+            "logo": "shopify:\/\/shop_images\/download.png",
             "logo_width": 120,
-            "link": "https:\/\/www.planteenboom.nu\/pages\/bezabouw?_pos=1&_sid=cafd31934&_ss=r"
+            "link": "https:\/\/marcoterbeekphotography.com\/"
           }
         },
         "logo_K8WEcz": {
@@ -414,12 +414,12 @@
             "link": "https:\/\/www.planteenboom.nu\/pages\/het-dm-bureau"
           }
         },
-        "logo_mn7CbA": {
+        "logo_jjFyFi": {
           "type": "logo",
           "settings": {
-            "logo": "shopify:\/\/shop_images\/ftf-finance_logo.png",
+            "logo": "shopify:\/\/shop_images\/logo2.jpg",
             "logo_width": 120,
-            "link": "https:\/\/www.planteenboom.nu\/pages\/ftf-finance"
+            "link": "https:\/\/www.planteenboom.nu\/pages\/bezabouw?_pos=1&_sid=cafd31934&_ss=r"
           }
         },
         "logo_XRyhjK": {
@@ -453,6 +453,14 @@
             "logo_width": 120,
             "link": "https:\/\/www.planteenboom.nu\/pages\/imcd"
           }
+        },
+        "logo_mn7CbA": {
+          "type": "logo",
+          "settings": {
+            "logo": "shopify:\/\/shop_images\/ftf-finance_logo.png",
+            "logo_width": 120,
+            "link": "https:\/\/www.planteenboom.nu\/pages\/ftf-finance"
+          }
         }
       },
       "block_order": [
@@ -462,15 +470,16 @@
         "logo_aG8DMa",
         "logo_ptBYU6",
         "logo_CEKpjX",
-        "logo_jjFyFi",
+        "logo_MQDwYT",
         "logo_K8WEcz",
         "logo_6wrqbV",
         "logo_icrNUY",
-        "logo_mn7CbA",
+        "logo_jjFyFi",
         "logo_XRyhjK",
         "logo_iTeKKG",
         "logo_KdwfbA",
-        "logo_nmJJNN"
+        "logo_nmJJNN",
+        "logo_mn7CbA"
       ],
       "settings": {
         "color_scheme": "scheme-59e5f34a-a60f-4e1d-9b5e-4547ec55681a",
