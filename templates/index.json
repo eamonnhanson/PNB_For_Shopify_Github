@@ -142,6 +142,36 @@
         "liquid": "<div id=\"forest-counter\">\n  <p id=\"counter-text\">\n    We have <span id=\"tree-count\">0<\/span> new forest heroes! \n    We need <span id=\"remaining-count\">100<\/span> more.\n  <\/p>\n  <div id=\"forest-progress\">\n    <!-- Trees will be dynamically added here -->\n  <\/div>\n<\/div>\n\n<!-- Include the Chargebee Script in the Header -->\n<script src=\"https:\/\/js.chargebee.com\/v2\/chargebee.js\" data-cb-site=\"planteenboom\"><\/script>\n\n<div id=\"forest-hero-counter\" class=\"forest-counter-container\">\n    <!-- Counter Section -->\n    <div class=\"forest-counter-text\">\n        <p>We hebben nu <span id=\"subscription-counter\">34<\/span> Forest Heroes!<\/p>\n    <\/div>\n\n    <!-- Call-to-Action Button -->\n    <div class=\"forest-counter-button\">\n        <a href=\"javascript:void(0)\" \n           data-cb-type=\"checkout\" \n           data-cb-item-0=\"1-boom-per-maand-EUR-Monthly\" \n           data-cb-item-0-quantity=\"1\" \n           class=\"forest-subscribe-btn\">Abonneer nu!<\/a>\n    <\/div>\n<\/div>\n\n<!-- Link the Custom CSS -->\n<link rel=\"stylesheet\" href=\"{{ 'counter_forest_hero.css' | asset_url }}\">",
         "text_alignment": "center"
       }
+    },
+    "scrolling_content_6NETbj": {
+      "type": "scrolling-content",
+      "blocks": {
+        "text_fVqtPx": {
+          "type": "text",
+          "settings": {
+            "text": "🌍 Forest Heroes only: Ga met ons mee naar Sierra Leone"
+          }
+        }
+      },
+      "block_order": [
+        "text_fVqtPx"
+      ],
+      "name": "t:sections.scrolling_content.presets.scrolling_content.name",
+      "settings": {
+        "separate_section_with_border": true,
+        "scrolling_speed": 0.3,
+        "scroll_direction": "left",
+        "pause_on_hover": true,
+        "text_font": "heading",
+        "text_font_size_mobile": 40,
+        "text_font_size_desktop": 96,
+        "section_vertical_spacing_mobile": 60,
+        "section_vertical_spacing_desktop": 80,
+        "item_horizontal_spacing_mobile": 80,
+        "item_horizontal_spacing_desktop": 120,
+        "background": "",
+        "text_color": ""
+      }
     }
   },
   "order": [
@@ -149,6 +179,7 @@
     "featured_collections_BNgdTW",
     "slideshow",
     "image_with_text_4DKzLr",
-    "custom_liquid_LtiFAM"
+    "custom_liquid_LtiFAM",
+    "scrolling_content_6NETbj"
   ]
 }
